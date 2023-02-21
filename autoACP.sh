@@ -1,9 +1,14 @@
 #! /bin/bash
-echo "Git adding..."
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+CYAN='\033[0;36m'
+PURPLE='\033[1;35m'
+NC='\033[0m'
+echo "${YELLOW}Git adding...${NC}"
 git add .
-echo "Git committing..."
+echo "${PURPLE}Git committing...${NC}"
 export COMMIT_DATE=$(date)
 git commit -m "$COMMIT_DATE"
-echo "Git pushing..."
+echo "${CYAN}Git pushing...${NC}"
 git push origin master
-echo "Backup Done: $COMMIT_DATE"
+echo "${GREEN}Backup Done: $COMMIT_DATE${NC}"
