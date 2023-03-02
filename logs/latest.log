@@ -1,36 +1,36 @@
-[22Feb2023 06:32:32.539] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.2.0, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
-[22Feb2023 06:32:32.544] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.1 by Oracle Corporation; OS Linux arch amd64 version 5.15.0-60-generic
-[22Feb2023 06:32:33.090] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/op/instances/02-mc-forge1.19.2/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
-[22Feb2023 06:32:33.658] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/op/instances/02-mc-forge1.19.2/libraries/net/minecraftforge/fmlcore/1.19.2-43.2.0/fmlcore-1.19.2-43.2.0.jar is missing mods.toml file
-[22Feb2023 06:32:33.661] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/op/instances/02-mc-forge1.19.2/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.2.0/javafmllanguage-1.19.2-43.2.0.jar is missing mods.toml file
-[22Feb2023 06:32:33.662] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/op/instances/02-mc-forge1.19.2/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.2.0/lowcodelanguage-1.19.2-43.2.0.jar is missing mods.toml file
-[22Feb2023 06:32:33.664] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/op/instances/02-mc-forge1.19.2/libraries/net/minecraftforge/mclanguage/1.19.2-43.2.0/mclanguage-1.19.2-43.2.0.jar is missing mods.toml file
-[22Feb2023 06:32:33.745] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[22Feb2023 06:32:36.545] [main/ERROR] [mixin/]: Mixin config rei.mixins.json does not specify "minVersion" property
-[22Feb2023 06:32:36.554] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[22Feb2023 06:32:36.556] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[22Feb2023 06:32:38.916] [main/INFO] [net.minecraftforge.coremod.CoreMod.uteamcore/COREMODLOG]: Injected ASMUContainerMenuHook call into ServerPlayer#initMenu
-[22Feb2023 06:32:42.686] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[22Feb2023 06:32:43.154] [main/INFO] [net.minecraftforge.coremod.CoreMod.uteamcore/COREMODLOG]: Injected ASMUContainerMenuHook call into ServerPlayer#initMenu
-[22Feb2023 06:32:45.448] [modloading-worker-0/INFO] [JarSignVerifier/]: Mod usefulrailroads is signed with a valid certificate.
-[22Feb2023 06:32:45.472] [modloading-worker-0/INFO] [JarSignVerifier/]: Mod basicdiscordrichpresence is signed with a valid certificate.
-[22Feb2023 06:32:45.478] [modloading-worker-0/INFO] [JarSignVerifier/]: Mod uteamcore is signed with a valid certificate.
-[22Feb2023 06:32:45.555] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[22Feb2023 06:32:45.559] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
-[22Feb2023 06:32:45.593] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.2.0, for MC 1.19.2 with MCP 20220805.130853
-[22Feb2023 06:32:45.597] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.2.0 Initialized
-[22Feb2023 06:32:45.641] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
-[22Feb2023 06:32:45.643] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIServerPlugin
-[22Feb2023 06:32:45.644] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIPlugin
-[22Feb2023 06:32:45.651] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
-[22Feb2023 06:32:45.657] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
-[22Feb2023 06:32:45.662] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:delete_item
-[22Feb2023 06:32:45.672] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item
-[22Feb2023 06:32:45.673] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
-[22Feb2023 06:32:45.675] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
-[22Feb2023 06:32:45.676] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:move_items
-[22Feb2023 06:32:46.461] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [usefulrailroads] Starting version check at https://api.u-team.info/update/usefulrailroads.json
-[22Feb2023 06:33:06.859] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[02Mar2023 06:32:32.484] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.2.0, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[02Mar2023 06:32:32.497] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.1 by Oracle Corporation; OS Linux arch amd64 version 5.15.0-60-generic
+[02Mar2023 06:32:32.857] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/op/instances/02-mc-forge1.19.2/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[02Mar2023 06:32:33.349] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/op/instances/02-mc-forge1.19.2/libraries/net/minecraftforge/fmlcore/1.19.2-43.2.0/fmlcore-1.19.2-43.2.0.jar is missing mods.toml file
+[02Mar2023 06:32:33.352] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/op/instances/02-mc-forge1.19.2/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.2.0/javafmllanguage-1.19.2-43.2.0.jar is missing mods.toml file
+[02Mar2023 06:32:33.356] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/op/instances/02-mc-forge1.19.2/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.2.0/lowcodelanguage-1.19.2-43.2.0.jar is missing mods.toml file
+[02Mar2023 06:32:33.360] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/op/instances/02-mc-forge1.19.2/libraries/net/minecraftforge/mclanguage/1.19.2-43.2.0/mclanguage-1.19.2-43.2.0.jar is missing mods.toml file
+[02Mar2023 06:32:33.499] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[02Mar2023 06:32:35.334] [main/ERROR] [mixin/]: Mixin config rei.mixins.json does not specify "minVersion" property
+[02Mar2023 06:32:35.345] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[02Mar2023 06:32:35.347] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[02Mar2023 06:32:38.205] [main/INFO] [net.minecraftforge.coremod.CoreMod.uteamcore/COREMODLOG]: Injected ASMUContainerMenuHook call into ServerPlayer#initMenu
+[02Mar2023 06:32:42.919] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[02Mar2023 06:32:43.317] [main/INFO] [net.minecraftforge.coremod.CoreMod.uteamcore/COREMODLOG]: Injected ASMUContainerMenuHook call into ServerPlayer#initMenu
+[02Mar2023 06:32:45.374] [modloading-worker-0/INFO] [JarSignVerifier/]: Mod basicdiscordrichpresence is signed with a valid certificate.
+[02Mar2023 06:32:45.389] [modloading-worker-0/INFO] [JarSignVerifier/]: Mod uteamcore is signed with a valid certificate.
+[02Mar2023 06:32:45.401] [modloading-worker-0/INFO] [JarSignVerifier/]: Mod usefulrailroads is signed with a valid certificate.
+[02Mar2023 06:32:45.444] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[02Mar2023 06:32:45.445] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[02Mar2023 06:32:45.593] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.2.0, for MC 1.19.2 with MCP 20220805.130853
+[02Mar2023 06:32:45.594] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.2.0 Initialized
+[02Mar2023 06:32:45.628] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[02Mar2023 06:32:45.631] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIServerPlugin
+[02Mar2023 06:32:45.631] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIPlugin
+[02Mar2023 06:32:45.632] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[02Mar2023 06:32:45.632] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[02Mar2023 06:32:45.648] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[02Mar2023 06:32:45.649] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item
+[02Mar2023 06:32:45.649] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[02Mar2023 06:32:45.649] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[02Mar2023 06:32:45.649] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:move_items
+[02Mar2023 06:32:46.424] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [usefulrailroads] Starting version check at https://api.u-team.info/update/usefulrailroads.json
+[02Mar2023 06:33:06.840] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
 	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:578) ~[java.net.http:?]
 	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:119) ~[java.net.http:?]
@@ -58,47 +58,47 @@ Caused by: javax.net.ssl.SSLHandshakeException: Remote host terminated the hands
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[22Feb2023 06:33:06.861] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
-[22Feb2023 06:33:11.388] [modloading-worker-0/WARN] [citadel/]: Failed to load patreon contributor perks
-[22Feb2023 06:33:11.391] [modloading-worker-0/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[22Feb2023 06:33:11.393] [main/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[22Feb2023 06:33:12.817] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[22Feb2023 06:33:13.825] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/op/instances/02-mc-forge1.19.2/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23129!/assets/.mcassetsroot' uses unexpected schema
-[22Feb2023 06:33:13.826] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/op/instances/02-mc-forge1.19.2/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23129!/data/.mcassetsroot' uses unexpected schema
-[22Feb2023 06:33:15.511] [main/INFO] [FTB Ranks/]: Loading command nodes...
-[22Feb2023 06:33:15.533] [main/INFO] [FTB Ranks/]: Loaded 1446 command nodes
-[22Feb2023 06:33:16.205] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
-[22Feb2023 06:33:16.686] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1197 advancements
-[22Feb2023 06:33:16.707] [main/INFO] [REI/]: [REI] Reloading Plugin Manager [REIPlugin] stage [START], registered 2 plugins: DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems], DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
-[22Feb2023 06:33:16.725] [main/INFO] [REI/]: [REI] Reloading Plugin Manager [REIServerPlugin] stage [START], registered 2 plugins: DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems], DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
-[22Feb2023 06:33:16.727] [main/INFO] [REI/]: [REI] Reloaded Plugin Manager [REIPlugin] with 2 plugins in 36.66 ms.
-[22Feb2023 06:33:16.728] [main/INFO] [REI/]: [REI] Reloaded Plugin Manager [REIServerPlugin] with 2 plugins in 2.528 ms.
-[22Feb2023 06:33:16.731] [main/INFO] [REI/]: [REI] Reloading Plugin Manager [REIPlugin] stage [END], registered 2 plugins: DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems], DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
-[22Feb2023 06:33:16.760] [main/INFO] [REI/]: [REI] Reloading Plugin Manager [REIServerPlugin] stage [END], registered 2 plugins: DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems], DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
-[22Feb2023 06:33:16.769] [main/INFO] [REI/]: [REI] Reloaded Plugin Manager [REIPlugin] with 2 plugins in 31.23 ms.
-[22Feb2023 06:33:16.770] [main/INFO] [REI/]: [REI] Reloaded Plugin Manager [REIServerPlugin] with 2 plugins in 9.734 ms.
-[22Feb2023 06:33:17.827] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
-[22Feb2023 06:33:17.827] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[22Feb2023 06:33:17.827] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: CREATIVE
-[22Feb2023 06:33:17.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[22Feb2023 06:33:17.972] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25566
-[22Feb2023 06:33:17.998] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[22Feb2023 06:33:18.096] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22Feb2023 06:33:18.096] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[22Feb2023 06:33:18.097] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22Feb2023 06:33:18.097] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[22Feb2023 06:33:18.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:         __    
-[22Feb2023 06:33:18.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:   |    |__)   LuckPerms v5.4.58
-[22Feb2023 06:33:18.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:   |___ |      Running on Forge - Forge
-[22Feb2023 06:33:18.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
-[22Feb2023 06:33:18.192] [Server thread/INFO] [luckperms/]: Loading configuration...
-[22Feb2023 06:33:18.352] [Server thread/INFO] [luckperms/]: Loading storage provider... [H2]
-[22Feb2023 06:33:18.592] [Server thread/INFO] [luckperms/]: Loading internal permission managers...
-[22Feb2023 06:33:18.621] [Server thread/INFO] [luckperms/]: Performing initial data load...
-[22Feb2023 06:33:18.661] [Server thread/INFO] [luckperms/]: Successfully enabled. (took 32557ms)
-[22Feb2023 06:33:18.688] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[22Feb2023 06:33:19.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[22Feb2023 06:33:26.870] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[02Mar2023 06:33:06.846] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
+[02Mar2023 06:33:11.427] [modloading-worker-0/WARN] [citadel/]: Failed to load patreon contributor perks
+[02Mar2023 06:33:11.435] [modloading-worker-0/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[02Mar2023 06:33:11.439] [main/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[02Mar2023 06:33:12.749] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02Mar2023 06:33:13.721] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/op/instances/02-mc-forge1.19.2/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23129!/assets/.mcassetsroot' uses unexpected schema
+[02Mar2023 06:33:13.721] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/op/instances/02-mc-forge1.19.2/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23129!/data/.mcassetsroot' uses unexpected schema
+[02Mar2023 06:33:15.396] [main/INFO] [FTB Ranks/]: Loading command nodes...
+[02Mar2023 06:33:15.415] [main/INFO] [FTB Ranks/]: Loaded 1446 command nodes
+[02Mar2023 06:33:15.972] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
+[02Mar2023 06:33:16.496] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1197 advancements
+[02Mar2023 06:33:16.513] [main/INFO] [REI/]: [REI] Reloading Plugin Manager [REIPlugin] stage [START], registered 2 plugins: DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems], DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[02Mar2023 06:33:16.527] [main/INFO] [REI/]: [REI] Reloading Plugin Manager [REIServerPlugin] stage [START], registered 2 plugins: DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems], DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[02Mar2023 06:33:16.528] [main/INFO] [REI/]: [REI] Reloaded Plugin Manager [REIPlugin] with 2 plugins in 29.27 ms.
+[02Mar2023 06:33:16.529] [main/INFO] [REI/]: [REI] Reloaded Plugin Manager [REIServerPlugin] with 2 plugins in 1.855 ms.
+[02Mar2023 06:33:16.531] [main/INFO] [REI/]: [REI] Reloading Plugin Manager [REIPlugin] stage [END], registered 2 plugins: DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems], DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[02Mar2023 06:33:16.554] [main/INFO] [REI/]: [REI] Reloading Plugin Manager [REIServerPlugin] stage [END], registered 2 plugins: DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems], DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[02Mar2023 06:33:16.560] [main/INFO] [REI/]: [REI] Reloaded Plugin Manager [REIPlugin] with 2 plugins in 24.21 ms.
+[02Mar2023 06:33:16.561] [main/INFO] [REI/]: [REI] Reloaded Plugin Manager [REIServerPlugin] with 2 plugins in 7.349 ms.
+[02Mar2023 06:33:17.443] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[02Mar2023 06:33:17.445] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[02Mar2023 06:33:17.446] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: CREATIVE
+[02Mar2023 06:33:17.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[02Mar2023 06:33:17.615] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25566
+[02Mar2023 06:33:17.641] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[02Mar2023 06:33:17.781] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02Mar2023 06:33:17.782] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[02Mar2023 06:33:17.782] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02Mar2023 06:33:17.783] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[02Mar2023 06:33:17.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:         __    
+[02Mar2023 06:33:17.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:   |    |__)   LuckPerms v5.4.58
+[02Mar2023 06:33:17.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:   |___ |      Running on Forge - Forge
+[02Mar2023 06:33:17.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[02Mar2023 06:33:17.887] [Server thread/INFO] [luckperms/]: Loading configuration...
+[02Mar2023 06:33:18.047] [Server thread/INFO] [luckperms/]: Loading storage provider... [H2]
+[02Mar2023 06:33:18.312] [Server thread/INFO] [luckperms/]: Loading internal permission managers...
+[02Mar2023 06:33:18.340] [Server thread/INFO] [luckperms/]: Performing initial data load...
+[02Mar2023 06:33:18.431] [Server thread/INFO] [luckperms/]: Successfully enabled. (took 32185ms)
+[02Mar2023 06:33:18.500] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[02Mar2023 06:33:19.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[02Mar2023 06:33:26.862] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
 	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:578) ~[java.net.http:?]
 	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:119) ~[java.net.http:?]
@@ -126,55 +126,62 @@ Caused by: javax.net.ssl.SSLHandshakeException: Remote host terminated the hands
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[22Feb2023 06:33:26.874] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [basicdiscordrichpresence] Starting version check at https://api.u-team.info/update/basicdiscordrichpresence.json
-[22Feb2023 06:33:38.594] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.595] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.595] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.596] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.596] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.597] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.597] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.598] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.598] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.599] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.599] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.600] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.600] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.601] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.601] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.602] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.602] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.603] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.603] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.603] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.604] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.604] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.605] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.605] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.606] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.607] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.607] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.607] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.608] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.608] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.609] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.609] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.610] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.611] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.611] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.612] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.612] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.613] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.613] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:38.614] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:39.052] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[22Feb2023 06:33:39.556] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
-[22Feb2023 06:33:40.085] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 91%
-[22Feb2023 06:33:40.133] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 21082 ms
-[22Feb2023 06:33:40.134] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (22.017s)! For help, type "help"
-[22Feb2023 06:33:40.143] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler luckperms:permission_handler
-[22Feb2023 06:33:40.160] [Server thread/INFO] [FTB Ranks/]: Loaded 3 ranks
-[22Feb2023 06:33:46.882] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[02Mar2023 06:33:26.871] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [basicdiscordrichpresence] Starting version check at https://api.u-team.info/update/basicdiscordrichpresence.json
+[02Mar2023 06:33:40.602] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.617] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.624] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.628] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.642] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.647] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.651] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.667] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.677] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.682] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.688] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.693] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.701] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.705] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.719] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.724] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.735] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.739] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.744] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.748] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.751] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.762] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.768] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.771] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.777] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.781] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.785] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.789] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.793] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.795] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.798] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.801] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.816] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.822] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.826] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.829] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.832] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.835] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.840] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.843] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.846] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.849] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.854] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:40.871] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:41.046] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:41.544] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Mar2023 06:33:42.045] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[02Mar2023 06:33:42.543] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
+[02Mar2023 06:33:43.044] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 59%
+[02Mar2023 06:33:43.545] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 96%
+[02Mar2023 06:33:43.609] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 24566 ms
+[02Mar2023 06:33:43.610] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (25.813s)! For help, type "help"
+[02Mar2023 06:33:43.631] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler luckperms:permission_handler
+[02Mar2023 06:33:43.673] [Server thread/INFO] [FTB Ranks/]: Loaded 3 ranks
+[02Mar2023 06:33:46.896] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
 	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:578) ~[java.net.http:?]
 	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:119) ~[java.net.http:?]
@@ -202,8 +209,8 @@ Caused by: javax.net.ssl.SSLHandshakeException: Remote host terminated the hands
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[22Feb2023 06:33:46.886] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[22Feb2023 06:33:47.296] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[02Mar2023 06:33:46.897] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[02Mar2023 06:34:07.286] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
 	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:578) ~[java.net.http:?]
 	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:119) ~[java.net.http:?]
@@ -231,165 +238,27 @@ Caused by: javax.net.ssl.SSLHandshakeException: Remote host terminated the hands
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[22Feb2023 04:17:58.227] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.coremod.CoreMod.uteamcore/COREMODLOG]: Injected ASMUContainerMenuHook call into ServerPlayer#initMenu
-[22Feb2023 04:18:00.800] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@2a8a2071
-[22Feb2023 04:18:00.859] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: eho[/10.0.0.1:43832] logged in with entity id 7 at (289.8903932241167, 95.5636755087236, 308.049268494943)
-[22Feb2023 04:18:01.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho joined the game
-[22Feb2023 04:18:03.382] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2664ms or 53 ticks behind
-[22Feb2023 04:41:26.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [eho: Successfully filled 150 blocks]
-[22Feb2023 04:43:09.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [eho: Successfully filled 150 blocks]
-[22Feb2023 04:44:41.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [eho: Successfully filled 147 blocks]
-[22Feb2023 04:48:30.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [eho: Successfully filled 98 blocks]
-[22Feb2023 04:55:18.980] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho lost connection: Timed out
-[22Feb2023 04:55:18.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho left the game
-[22Feb2023 04:55:19.045] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[22Feb2023 14:17:37.727] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@593eaf26
-[22Feb2023 14:17:37.751] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: eho[/10.0.0.1:34038] logged in with entity id 6494 at (120.71276498718316, 111.52377327417307, 435.9566973353391)
-[22Feb2023 14:17:37.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho joined the game
-[22Feb2023 14:18:07.794] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho lost connection: Timed out
-[22Feb2023 14:18:07.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho left the game
-[22Feb2023 14:18:07.834] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[22Feb2023 14:18:26.094] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6634a33e[id=<null>,name=eho,properties={},legacy=false] (/10.0.0.1:50860) lost connection: Disconnected
-[22Feb2023 14:19:00.380] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@4cf84449[id=<null>,name=eho,properties={},legacy=false] (/10.0.0.1:40720): Took too long to log in
-[22Feb2023 14:19:00.382] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4cf84449[id=<null>,name=eho,properties={},legacy=false] (/10.0.0.1:40720) lost connection: Took too long to log in
-[22Feb2023 14:19:00.430] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[22Feb2023 14:19:14.343] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@d85aad
-[22Feb2023 14:19:14.348] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: eho[/10.0.0.1:57450] logged in with entity id 6689 at (76.69861070418352, 74.49520087700593, 414.0875448388683)
-[22Feb2023 14:19:14.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho joined the game
-[22Feb2023 14:19:44.490] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho lost connection: Timed out
-[22Feb2023 14:19:44.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho left the game
-[22Feb2023 14:20:02.936] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3c7f632d
-[22Feb2023 14:20:02.941] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: eho[/10.0.0.1:47186] logged in with entity id 6865 at (76.69861070418352, 74.49520087700593, 414.0875448388683)
-[22Feb2023 14:20:02.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho joined the game
-[22Feb2023 14:20:05.543] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@44b4c3b3
-[22Feb2023 14:20:05.546] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: luoyunsheng[/10.0.0.1:47190] logged in with entity id 7048 at (4.5, 117.0, -1.5)
-[22Feb2023 14:20:05.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luoyunsheng joined the game
-[22Feb2023 14:21:18.039] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho lost connection: Timed out
-[22Feb2023 14:21:18.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho left the game
-[22Feb2023 14:21:18.104] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[22Feb2023 14:25:58.154] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3c4a936e
-[22Feb2023 14:25:58.159] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: eho[/10.0.0.1:38920] logged in with entity id 8031 at (76.69861070418352, 74.03104150205048, 414.0875448388683)
-[22Feb2023 14:25:58.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho joined the game
-[22Feb2023 14:26:36.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [eho: Teleported eho to luoyunsheng]
-[22Feb2023 14:32:12.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <eho> xaero-waypoint:New World First House:N:305:131:-10:14:false:0:Internal-overworld-waypoints
-[22Feb2023 14:33:21.991] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luoyunsheng lost connection: Timed out
-[22Feb2023 14:33:21.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luoyunsheng left the game
-[22Feb2023 14:33:28.682] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho lost connection: Timed out
-[22Feb2023 14:33:28.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho left the game
-[22Feb2023 14:33:52.535] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@743a3394
-[22Feb2023 14:33:52.540] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: eho[/10.0.0.1:57532] logged in with entity id 9427 at (130.78181353333747, 131.2961949693668, 34.41194618687654)
-[22Feb2023 14:33:52.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho joined the game
-[22Feb2023 14:34:20.032] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho lost connection: Disconnected
-[22Feb2023 14:34:20.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho left the game
-[22Feb2023 14:34:59.230] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@71ed8720
-[22Feb2023 14:34:59.233] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: luoyunsheng[/10.0.0.1:44700] logged in with entity id 9576 at (109.98733133776113, 133.03733868208465, 13.484331460511086)
-[22Feb2023 14:34:59.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luoyunsheng joined the game
-[22Feb2023 14:35:08.904] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3d923516
-[22Feb2023 14:35:08.908] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: eho[/10.0.0.1:44708] logged in with entity id 9655 at (129.1468681670153, 134.67093328975255, 44.78557451451831)
-[22Feb2023 14:35:08.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho joined the game
-[22Feb2023 14:35:43.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [eho: Teleported eho to luoyunsheng]
-[22Feb2023 14:39:36.891] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5916c942
-[22Feb2023 14:39:36.898] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: admin[/10.0.0.1:56748] logged in with entity id 10360 at (165.30334131653578, 64.90779718977032, 449.3013191572536)
-[22Feb2023 14:39:36.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: admin joined the game
-[22Feb2023 14:40:02.319] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luoyunsheng moved too quickly! 7.253614188799816,0.0,7.992420725611197
-[22Feb2023 14:40:30.326] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: admin moved too quickly! -9.129993277302674,0.0,4.863202833250682
-[22Feb2023 14:40:40.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Teleported admin to 384.500000, 78.500000, 290.500000]
-[22Feb2023 14:41:07.043] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: admin lost connection: Timed out
-[22Feb2023 14:41:07.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: admin left the game
-[22Feb2023 14:41:14.699] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3e5cade3
-[22Feb2023 14:41:14.703] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: admin[/10.0.0.1:6702] logged in with entity id 11134 at (384.5, 78.5, 290.5)
-[22Feb2023 14:41:14.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: admin joined the game
-[22Feb2023 14:42:00.784] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [U] (luoyunsheng)
-[22Feb2023 14:42:00.784] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission set command.tpa true
-[22Feb2023 14:42:06.777] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [U] (luoyunsheng)
-[22Feb2023 14:42:06.778] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission set command.tp true
-[22Feb2023 14:42:31.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [luoyunsheng: Teleported luoyunsheng to eho]
-[22Feb2023 14:43:06.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Teleported luoyunsheng to eho]
-[22Feb2023 14:43:12.051] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [luoyunsheng: Teleported luoyunsheng to eho]
-[22Feb2023 14:46:52.844] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luoyunsheng lost connection: Disconnected
-[22Feb2023 14:46:52.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luoyunsheng left the game
-[22Feb2023 14:50:31.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Set the weather to clear]
-[22Feb2023 14:50:38.294] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@4022e3d
-[22Feb2023 14:50:38.297] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: luoyunsheng[/10.0.0.1:35890] logged in with entity id 13682 at (225.11767867152955, 67.53881521507947, 405.3300633114616)
-[22Feb2023 14:50:38.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luoyunsheng joined the game
-[22Feb2023 14:50:42.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [eho: Successfully filled 1965 blocks]
-[22Feb2023 14:51:11.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [eho: Successfully filled 1320 blocks]
-[22Feb2023 14:51:42.925] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > (admin) [U] (luoyunsheng)
-[22Feb2023 14:51:42.925] [luckperms-command-executor/INFO] [net.minecraft.server.MinecraftServer/]: [LP] LOG > permission set forge.use_entity_selectors true
-[22Feb2023 14:51:49.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [luoyunsheng: Teleported luoyunsheng to -410.500000, 84.500000, -1850.500000]
-[22Feb2023 14:51:49.303] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2325ms or 46 ticks behind
-[22Feb2023 14:52:06.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <eho> xaero-waypoint:Fictitious Village:F:392:86:330:2:false:0:Internal-overworld-waypoints
-[22Feb2023 14:52:18.243] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: admin lost connection: Disconnected
-[22Feb2023 14:52:18.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: admin left the game
-[22Feb2023 14:52:41.996] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5d573556
-[22Feb2023 14:52:42.000] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: admin[/10.0.0.1:6929] logged in with entity id 14787 at (380.3046404344799, 93.15435943333516, 319.1548456353434)
-[22Feb2023 14:52:42.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: admin joined the game
-[22Feb2023 14:52:56.193] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: admin lost connection: Disconnected
-[22Feb2023 14:52:56.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: admin left the game
-[22Feb2023 14:53:14.404] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@7824a54f
-[22Feb2023 14:53:14.407] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: admin[/10.0.0.1:44544] logged in with entity id 15088 at (380.3046404344799, 93.15435943333516, 319.1548456353434)
-[22Feb2023 14:53:14.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: admin joined the game
-[22Feb2023 14:53:45.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [eho: Teleported eho to luoyunsheng]
-[22Feb2023 14:54:38.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [luoyunsheng: Teleported luoyunsheng to 305.500000, 72.500000, 251.500000]
-[22Feb2023 14:54:41.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <eho> xaero-waypoint:Slum Condo:S:305:72:251:10:false:0:Internal-overworld-waypoints
-[22Feb2023 14:54:52.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [eho: Teleported eho to 305.500000, 72.500000, 251.500000]
-[22Feb2023 14:57:45.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [luoyunsheng: Teleported luoyunsheng to eho]
-[22Feb2023 14:59:07.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [eho: Teleported eho to luoyunsheng]
-[22Feb2023 14:59:45.088] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: admin lost connection: Timed out
-[22Feb2023 14:59:45.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: admin left the game
-[22Feb2023 14:59:54.484] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luoyunsheng lost connection: Timed out
-[22Feb2023 14:59:54.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luoyunsheng left the game
-[22Feb2023 14:59:56.296] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho lost connection: Timed out
-[22Feb2023 14:59:56.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho left the game
-[22Feb2023 15:00:24.648] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@464e1a4a
-[22Feb2023 15:00:24.652] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: admin[/10.0.0.104:7161] logged in with entity id 17359 at (409.71231953904135, 85.91409645746808, 313.99499351154554)
-[22Feb2023 15:00:24.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: admin joined the game
-[22Feb2023 15:00:34.634] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@193ddbda[id=<null>,name=admin,properties={},legacy=false] (/10.0.0.1:34930) lost connection: Disconnected
-[22Feb2023 15:00:34.634] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@24272de6[id=<null>,name=eho,properties={},legacy=false] (/10.0.0.1:34952) lost connection: Disconnected
-[22Feb2023 15:00:36.135] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@6c30b893
-[22Feb2023 15:00:36.138] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: luoyunsheng[/10.0.0.1:34950] logged in with entity id 17501 at (240.81744689804484, 115.0, -21.853405346482806)
-[22Feb2023 15:00:36.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luoyunsheng joined the game
-[22Feb2023 15:00:46.593] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@d24390f
-[22Feb2023 15:00:46.597] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: eho[/10.0.0.1:52426] logged in with entity id 17709 at (240.33051706564052, 115.74395341196204, -20.65408898683742)
-[22Feb2023 15:00:46.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho joined the game
-[22Feb2023 15:01:18.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Set the weather to clear]
-[22Feb2023 15:04:51.598] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: luoyunsheng lost connection: Timed out
-[22Feb2023 15:04:51.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: luoyunsheng left the game
-[22Feb2023 15:05:38.836] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2e1057a6[id=<null>,name=luoyunsheng,properties={},legacy=false] (/10.0.0.1:54112) lost connection: Timed out
-[22Feb2023 15:06:14.938] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@735550c5[id=<null>,name=luoyunsheng,properties={},legacy=false] (/10.0.0.1:33298) lost connection: Timed out
-[22Feb2023 15:06:56.151] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7d766d9d[id=<null>,name=luoyunsheng,properties={},legacy=false] (/10.0.0.1:60538) lost connection: Timed out
-[22Feb2023 15:10:42.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Set the weather to clear]
-[22Feb2023 15:13:37.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [eho: Successfully filled 165 blocks]
-[22Feb2023 15:15:49.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Set the weather to clear]
-[22Feb2023 15:20:52.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Set the weather to clear]
-[22Feb2023 15:26:12.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Set the weather to clear]
-[22Feb2023 15:31:18.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Set the weather to clear]
-[22Feb2023 15:34:14.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Set the time to 1000]
-[22Feb2023 15:36:27.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Set the weather to clear]
-[22Feb2023 16:05:01.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Set the time to 1000]
-[22Feb2023 16:05:33.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Teleported admin to eho]
-[22Feb2023 16:05:33.251] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: admin moved too quickly! -238.15913718306012,-8.06482473059512,113.68357471057226
-[22Feb2023 16:05:33.266] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: admin moved too quickly! -238.15913718306012,-8.06482473059512,113.68357471057226
-[22Feb2023 16:06:33.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Teleported admin to eho]
-[22Feb2023 16:12:19.933] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: admin lost connection: Disconnected
-[22Feb2023 16:12:19.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: admin left the game
-[22Feb2023 16:20:08.437] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho lost connection: Timed out
-[22Feb2023 16:20:08.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho left the game
-[22Feb2023 16:20:08.500] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[22Feb2023 16:20:15.037] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@4d89ca3a
-[22Feb2023 16:20:15.043] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: eho[/10.0.0.1:57300] logged in with entity id 38773 at (77.1824613999213, 75.0, 414.64161378318454)
-[22Feb2023 16:20:15.071] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho joined the game
-[22Feb2023 16:21:33.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[22Feb2023 16:21:33.929] [Server thread/INFO] [luckperms/]: Starting shutdown process...
-[22Feb2023 16:21:33.939] [Server thread/INFO] [luckperms/]: Closing storage...
-[22Feb2023 16:21:33.982] [Server thread/INFO] [luckperms/]: Goodbye!
-[22Feb2023 16:21:33.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[22Feb2023 16:21:33.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[22Feb2023 16:21:34.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[22Feb2023 16:21:37.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22Feb2023 16:21:37.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[22Feb2023 16:21:37.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[22Feb2023 16:21:37.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22Feb2023 16:21:37.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22Feb2023 16:21:37.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22Feb2023 16:21:37.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02Mar2023 08:13:54.269] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.coremod.CoreMod.uteamcore/COREMODLOG]: Injected ASMUContainerMenuHook call into ServerPlayer#initMenu
+[02Mar2023 08:20:49.563] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@7a43ba4f
+[02Mar2023 08:20:49.618] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: eho[/10.0.0.1:34542] logged in with entity id 7 at (105.2734226038598, 76.0, 481.7653969242393)
+[02Mar2023 08:20:49.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho joined the game
+[02Mar2023 08:20:52.958] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3504ms or 70 ticks behind
+[02Mar2023 08:27:50.216] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho lost connection: Timed out
+[02Mar2023 08:27:50.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho left the game
+[02Mar2023 08:27:50.257] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[02Mar2023 08:27:56.266] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@2577ee6e
+[02Mar2023 08:27:56.271] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: eho[/10.0.0.1:45182] logged in with entity id 2370 at (103.85933046007648, 55.0, 683.3000000119209)
+[02Mar2023 08:27:56.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho joined the game
+[02Mar2023 08:27:58.596] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2242ms or 44 ticks behind
+[02Mar2023 08:28:26.314] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho lost connection: Timed out
+[02Mar2023 08:28:26.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho left the game
+[02Mar2023 08:28:26.376] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[02Mar2023 08:28:31.724] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5beb08bc
+[02Mar2023 08:28:31.729] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: eho[/10.0.0.1:52478] logged in with entity id 2533 at (103.85933046007648, 55.0, 683.3000000119209)
+[02Mar2023 08:28:31.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho joined the game
+[02Mar2023 08:28:34.046] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2241ms or 44 ticks behind
+[02Mar2023 08:29:01.817] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho lost connection: Timed out
+[02Mar2023 08:29:01.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho left the game
+[02Mar2023 08:29:07.766] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@2125a37c
+[02Mar2023 08:29:07.772] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: eho[/10.0.0.1:49726] logged in with entity id 2815 at (126.69999998807907, 89.45807673719, 733.4525054510707)
+[02Mar2023 08:29:07.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho joined the game

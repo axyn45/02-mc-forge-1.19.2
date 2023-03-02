@@ -311,6 +311,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2023-02-25 16:38:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2023-02-10 06:57:53 +0000"
@@ -815,6 +821,7 @@
       "minecraft:skeleton": "2023-02-06 06:59:44 +0000",
       "minecraft:spider": "2023-02-06 05:44:44 +0000",
       "minecraft:phantom": "2023-02-10 08:00:37 +0000",
+      "minecraft:enderman": "2023-02-28 15:01:43 +0000",
       "minecraft:zombie": "2023-02-08 05:09:18 +0000"
     },
     "done": false
@@ -900,6 +907,12 @@
   "minecraft:recipes/redstone/dark_oak_fence_gate": {
     "criteria": {
       "has_planks": "2023-02-09 07:32:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_hoe": "2023-02-28 15:35:17 +0000"
     },
     "done": true
   },
@@ -1413,6 +1426,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_hoe": "2023-02-28 15:35:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/smooth_sandstone_slab": {
     "criteria": {
       "has_smooth_sandstone": "2023-02-10 06:39:08 +0000"
@@ -1478,6 +1497,7 @@
       "minecraft:snowy_slopes": "2023-02-10 07:12:37 +0000",
       "minecraft:old_growth_pine_taiga": "2023-02-06 04:54:14 +0000",
       "minecraft:taiga": "2023-02-06 04:41:10 +0000",
+      "minecraft:beach": "2023-02-28 04:11:49 +0000",
       "minecraft:dark_forest": "2023-02-10 07:12:48 +0000",
       "minecraft:river": "2023-02-06 04:44:29 +0000",
       "minecraft:stony_shore": "2023-02-19 16:08:30 +0000",
