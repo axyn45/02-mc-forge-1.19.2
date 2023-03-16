@@ -1,151 +1,197 @@
-[14Mar2023 23:14:17.751] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.2.0, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
-[14Mar2023 23:14:17.754] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.1 by Oracle Corporation; OS Linux arch amd64 version 5.15.0-67-generic
-[14Mar2023 23:14:18.254] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/op/instances/02-mc-forge1.19.2/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
-[14Mar2023 23:14:18.724] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/op/instances/02-mc-forge1.19.2/libraries/net/minecraftforge/fmlcore/1.19.2-43.2.0/fmlcore-1.19.2-43.2.0.jar is missing mods.toml file
-[14Mar2023 23:14:18.726] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/op/instances/02-mc-forge1.19.2/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.2.0/javafmllanguage-1.19.2-43.2.0.jar is missing mods.toml file
-[14Mar2023 23:14:18.730] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/op/instances/02-mc-forge1.19.2/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.2.0/lowcodelanguage-1.19.2-43.2.0.jar is missing mods.toml file
-[14Mar2023 23:14:18.732] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/op/instances/02-mc-forge1.19.2/libraries/net/minecraftforge/mclanguage/1.19.2-43.2.0/mclanguage-1.19.2-43.2.0.jar is missing mods.toml file
-[14Mar2023 23:14:18.863] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[14Mar2023 23:14:20.856] [main/ERROR] [mixin/]: Mixin config rei.mixins.json does not specify "minVersion" property
-[14Mar2023 23:14:20.862] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[14Mar2023 23:14:20.870] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[14Mar2023 23:14:23.504] [main/INFO] [net.minecraftforge.coremod.CoreMod.uteamcore/COREMODLOG]: Injected ASMUContainerMenuHook call into ServerPlayer#initMenu
-[14Mar2023 23:14:27.123] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[14Mar2023 23:14:27.491] [main/INFO] [net.minecraftforge.coremod.CoreMod.uteamcore/COREMODLOG]: Injected ASMUContainerMenuHook call into ServerPlayer#initMenu
-[14Mar2023 23:14:29.089] [modloading-worker-0/INFO] [JarSignVerifier/]: Mod basicdiscordrichpresence is signed with a valid certificate.
-[14Mar2023 23:14:29.155] [modloading-worker-0/INFO] [JarSignVerifier/]: Mod usefulrailroads is signed with a valid certificate.
-[14Mar2023 23:14:29.174] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[14Mar2023 23:14:29.175] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
-[14Mar2023 23:14:29.189] [modloading-worker-0/INFO] [JarSignVerifier/]: Mod uteamcore is signed with a valid certificate.
-[14Mar2023 23:14:29.288] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.2.0, for MC 1.19.2 with MCP 20220805.130853
-[14Mar2023 23:14:29.288] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.2.0 Initialized
-[14Mar2023 23:14:29.318] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
-[14Mar2023 23:14:29.319] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIServerPlugin
-[14Mar2023 23:14:29.319] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIPlugin
-[14Mar2023 23:14:29.321] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
-[14Mar2023 23:14:29.321] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
-[14Mar2023 23:14:29.326] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:delete_item
-[14Mar2023 23:14:29.326] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item
-[14Mar2023 23:14:29.326] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
-[14Mar2023 23:14:29.326] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
-[14Mar2023 23:14:29.327] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:move_items
-[14Mar2023 23:14:29.927] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [usefulrailroads] Starting version check at https://api.u-team.info/update/usefulrailroads.json
-[14Mar2023 23:14:32.244] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [usefulrailroads] Found status: UP_TO_DATE Current: 1.5.1.47 Target: null
-[14Mar2023 23:14:32.245] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
-[14Mar2023 23:14:32.538] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Found status: UP_TO_DATE Current: 4.4.3.236 Target: null
-[14Mar2023 23:14:32.539] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [basicdiscordrichpresence] Starting version check at https://api.u-team.info/update/basicdiscordrichpresence.json
-[14Mar2023 23:14:32.802] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [basicdiscordrichpresence] Found status: OUTDATED Current: 1.1.1.12 Target: 1.1.1.14
-[14Mar2023 23:14:32.802] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[14Mar2023 23:14:34.324] [modloading-worker-0/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[14Mar2023 23:14:34.326] [main/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[14Mar2023 23:14:35.563] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14Mar2023 23:14:36.532] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/op/instances/02-mc-forge1.19.2/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23129!/assets/.mcassetsroot' uses unexpected schema
-[14Mar2023 23:14:36.533] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/op/instances/02-mc-forge1.19.2/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23129!/data/.mcassetsroot' uses unexpected schema
-[14Mar2023 23:14:36.806] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 43.2.0 Target: null
-[14Mar2023 23:14:38.187] [main/INFO] [FTB Ranks/]: Loading command nodes...
-[14Mar2023 23:14:38.207] [main/INFO] [FTB Ranks/]: Loaded 1446 command nodes
-[14Mar2023 23:14:38.733] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
-[14Mar2023 23:14:39.114] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1197 advancements
-[14Mar2023 23:14:39.131] [main/INFO] [REI/]: [REI] Reloading Plugin Manager [REIPlugin] stage [START], registered 2 plugins: DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems], DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
-[14Mar2023 23:14:39.146] [main/INFO] [REI/]: [REI] Reloading Plugin Manager [REIServerPlugin] stage [START], registered 2 plugins: DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems], DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
-[14Mar2023 23:14:39.148] [main/INFO] [REI/]: [REI] Reloaded Plugin Manager [REIPlugin] with 2 plugins in 29.55 ms.
-[14Mar2023 23:14:39.148] [main/INFO] [REI/]: [REI] Reloaded Plugin Manager [REIServerPlugin] with 2 plugins in 2.003 ms.
-[14Mar2023 23:14:39.150] [main/INFO] [REI/]: [REI] Reloading Plugin Manager [REIPlugin] stage [END], registered 2 plugins: DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems], DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
-[14Mar2023 23:14:39.173] [main/INFO] [REI/]: [REI] Reloading Plugin Manager [REIServerPlugin] stage [END], registered 2 plugins: DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems], DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
-[14Mar2023 23:14:39.179] [main/INFO] [REI/]: [REI] Reloaded Plugin Manager [REIPlugin] with 2 plugins in 24.17 ms.
-[14Mar2023 23:14:39.180] [main/INFO] [REI/]: [REI] Reloaded Plugin Manager [REIServerPlugin] with 2 plugins in 7.108 ms.
-[14Mar2023 23:14:40.052] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
-[14Mar2023 23:14:40.053] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[14Mar2023 23:14:40.053] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: CREATIVE
-[14Mar2023 23:14:40.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[14Mar2023 23:14:40.227] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25566
-[14Mar2023 23:14:40.252] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[14Mar2023 23:14:40.336] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14Mar2023 23:14:40.337] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[14Mar2023 23:14:40.337] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14Mar2023 23:14:40.337] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[14Mar2023 23:14:40.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:         __    
-[14Mar2023 23:14:40.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:   |    |__)   LuckPerms v5.4.58
-[14Mar2023 23:14:40.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:   |___ |      Running on Forge - Forge
-[14Mar2023 23:14:40.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
-[14Mar2023 23:14:40.430] [Server thread/INFO] [luckperms/]: Loading configuration...
-[14Mar2023 23:14:40.579] [Server thread/INFO] [luckperms/]: Loading storage provider... [H2]
-[14Mar2023 23:14:40.861] [Server thread/INFO] [luckperms/]: Loading internal permission managers...
-[14Mar2023 23:14:40.919] [Server thread/INFO] [luckperms/]: Performing initial data load...
-[14Mar2023 23:14:40.976] [Server thread/INFO] [luckperms/]: Successfully enabled. (took 11274ms)
-[14Mar2023 23:14:41.038] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[14Mar2023 23:14:41.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[14Mar2023 23:15:02.178] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.181] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.182] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.184] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.185] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.186] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.188] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.189] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.190] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.191] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.194] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.195] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.195] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.196] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.199] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.200] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.201] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.202] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.204] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.205] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.206] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.207] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.208] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.209] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.209] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.210] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.211] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.212] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.212] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.213] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.214] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.215] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.215] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.216] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.217] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.218] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.218] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.219] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.220] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.221] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.221] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.222] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[14Mar2023 23:15:02.643] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
-[14Mar2023 23:15:03.195] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 71%
-[14Mar2023 23:15:03.377] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 21735 ms
-[14Mar2023 23:15:03.378] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (23.028s)! For help, type "help"
-[14Mar2023 23:15:03.387] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler luckperms:permission_handler
-[14Mar2023 23:15:03.405] [Server thread/INFO] [FTB Ranks/]: Loaded 3 ranks
-[14Mar2023 23:15:59.818] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.coremod.CoreMod.uteamcore/COREMODLOG]: Injected ASMUContainerMenuHook call into ServerPlayer#initMenu
-[14Mar2023 23:16:03.414] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@4aae8467
-[14Mar2023 23:16:03.432] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: admin[/10.0.0.1:59918] logged in with entity id 12 at (263.3415715914939, 75.7125, 291.5)
-[14Mar2023 23:16:03.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: admin joined the game
-[14Mar2023 23:16:03.720] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Minecart['Minecart'/14, l='ServerLevel[world]', x=263.45, y=76.06, z=291.50]
-[14Mar2023 23:16:04.715] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@541e4ade[id=<null>,name=eho,properties={},legacy=false] (/10.0.0.1:59926) lost connection: Disconnected
-[14Mar2023 23:16:31.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Teleported admin to 1234.500000, 77.500000, -239.500000]
-[14Mar2023 23:16:31.020] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2514ms or 50 ticks behind
-[14Mar2023 23:16:33.557] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: admin lost connection: Timed out
-[14Mar2023 23:16:33.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: admin left the game
-[14Mar2023 23:17:15.406] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5abb332b[id=<null>,name=eho,properties={},legacy=false] (/10.0.0.1:57486) lost connection: Disconnected
-[14Mar2023 23:17:19.406] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@13cfa21[id=<null>,name=eho,properties={},legacy=false] (/10.0.0.1:53488) lost connection: Disconnected
-[14Mar2023 23:17:24.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[14Mar2023 23:17:24.856] [Server thread/INFO] [luckperms/]: Starting shutdown process...
-[14Mar2023 23:17:24.860] [Server thread/INFO] [luckperms/]: Closing storage...
-[14Mar2023 23:17:24.915] [Server thread/INFO] [luckperms/]: Goodbye!
-[14Mar2023 23:17:24.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[14Mar2023 23:17:24.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[14Mar2023 23:17:24.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[14Mar2023 23:17:26.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[14Mar2023 23:17:26.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[14Mar2023 23:17:26.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[14Mar2023 23:17:26.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14Mar2023 23:17:26.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14Mar2023 23:17:26.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14Mar2023 23:17:26.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16Mar2023 14:32:37.449] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.2.0, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[16Mar2023 14:32:37.462] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.1 by Oracle Corporation; OS Linux arch amd64 version 5.15.0-67-generic
+[16Mar2023 14:32:38.040] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/op/instances/02-mc-forge1.19.2/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[16Mar2023 14:32:38.565] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/op/instances/02-mc-forge1.19.2/libraries/net/minecraftforge/fmlcore/1.19.2-43.2.0/fmlcore-1.19.2-43.2.0.jar is missing mods.toml file
+[16Mar2023 14:32:38.570] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/op/instances/02-mc-forge1.19.2/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.2.0/javafmllanguage-1.19.2-43.2.0.jar is missing mods.toml file
+[16Mar2023 14:32:38.573] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/op/instances/02-mc-forge1.19.2/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.2.0/lowcodelanguage-1.19.2-43.2.0.jar is missing mods.toml file
+[16Mar2023 14:32:38.576] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/op/instances/02-mc-forge1.19.2/libraries/net/minecraftforge/mclanguage/1.19.2-43.2.0/mclanguage-1.19.2-43.2.0.jar is missing mods.toml file
+[16Mar2023 14:32:38.696] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[16Mar2023 14:32:41.227] [main/ERROR] [mixin/]: Mixin config rei.mixins.json does not specify "minVersion" property
+[16Mar2023 14:32:41.249] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[16Mar2023 14:32:41.251] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[16Mar2023 14:32:44.396] [main/INFO] [net.minecraftforge.coremod.CoreMod.uteamcore/COREMODLOG]: Injected ASMUContainerMenuHook call into ServerPlayer#initMenu
+[16Mar2023 14:32:48.233] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[16Mar2023 14:32:48.620] [main/INFO] [net.minecraftforge.coremod.CoreMod.uteamcore/COREMODLOG]: Injected ASMUContainerMenuHook call into ServerPlayer#initMenu
+[16Mar2023 14:32:50.561] [modloading-worker-0/INFO] [JarSignVerifier/]: Mod basicdiscordrichpresence is signed with a valid certificate.
+[16Mar2023 14:32:50.614] [modloading-worker-0/INFO] [JarSignVerifier/]: Mod uteamcore is signed with a valid certificate.
+[16Mar2023 14:32:50.624] [modloading-worker-0/INFO] [JarSignVerifier/]: Mod usefulrailroads is signed with a valid certificate.
+[16Mar2023 14:32:50.690] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[16Mar2023 14:32:50.693] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[16Mar2023 14:32:50.887] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.2.0, for MC 1.19.2 with MCP 20220805.130853
+[16Mar2023 14:32:50.887] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.2.0 Initialized
+[16Mar2023 14:32:50.970] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[16Mar2023 14:32:50.973] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIServerPlugin
+[16Mar2023 14:32:50.973] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIPlugin
+[16Mar2023 14:32:50.979] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[16Mar2023 14:32:50.979] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[16Mar2023 14:32:50.987] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[16Mar2023 14:32:50.987] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item
+[16Mar2023 14:32:50.987] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[16Mar2023 14:32:50.987] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[16Mar2023 14:32:51.005] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:move_items
+[16Mar2023 14:32:51.955] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [usefulrailroads] Starting version check at https://api.u-team.info/update/usefulrailroads.json
+[16Mar2023 14:33:12.278] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:578) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:119) ~[java.net.http:?]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:139) ~[fmlcore-1.19.2-43.2.0.jar%23130!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:177) ~[fmlcore-1.19.2-43.2.0.jar%23130!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.19.2-43.2.0.jar%23130!/:?]
+Caused by: javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at jdk.internal.net.http.common.SSLTube.checkForHandshake(SSLTube.java:595) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLTube$SSLSubscriberWrapper.onComplete(SSLTube.java:536) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SubscriberWrapper.checkCompletion(SubscriberWrapper.java:472) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SubscriberWrapper$DownstreamPusher.run1(SubscriberWrapper.java:334) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SubscriberWrapper$DownstreamPusher.run(SubscriberWrapper.java:259) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SubscriberWrapper.outgoing(SubscriberWrapper.java:232) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:513) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:268) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[16Mar2023 14:33:12.280] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
+[16Mar2023 14:33:16.953] [modloading-worker-0/WARN] [citadel/]: Failed to load patreon contributor perks
+[16Mar2023 14:33:16.955] [modloading-worker-0/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[16Mar2023 14:33:16.958] [main/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[16Mar2023 14:33:18.545] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16Mar2023 14:33:19.679] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/op/instances/02-mc-forge1.19.2/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23129!/assets/.mcassetsroot' uses unexpected schema
+[16Mar2023 14:33:19.679] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/op/instances/02-mc-forge1.19.2/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23129!/data/.mcassetsroot' uses unexpected schema
+[16Mar2023 14:33:21.518] [main/INFO] [FTB Ranks/]: Loading command nodes...
+[16Mar2023 14:33:21.546] [main/INFO] [FTB Ranks/]: Loaded 1446 command nodes
+[16Mar2023 14:33:22.118] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
+[16Mar2023 14:33:22.678] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1197 advancements
+[16Mar2023 14:33:22.701] [main/INFO] [REI/]: [REI] Reloading Plugin Manager [REIPlugin] stage [START], registered 2 plugins: DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems], DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[16Mar2023 14:33:22.719] [main/INFO] [REI/]: [REI] Reloading Plugin Manager [REIServerPlugin] stage [START], registered 2 plugins: DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems], DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[16Mar2023 14:33:22.722] [main/INFO] [REI/]: [REI] Reloaded Plugin Manager [REIPlugin] with 2 plugins in 39.06 ms.
+[16Mar2023 14:33:22.722] [main/INFO] [REI/]: [REI] Reloaded Plugin Manager [REIServerPlugin] with 2 plugins in 2.517 ms.
+[16Mar2023 14:33:22.725] [main/INFO] [REI/]: [REI] Reloading Plugin Manager [REIPlugin] stage [END], registered 2 plugins: DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems], DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[16Mar2023 14:33:22.755] [main/INFO] [REI/]: [REI] Reloading Plugin Manager [REIServerPlugin] stage [END], registered 2 plugins: DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems], DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[16Mar2023 14:33:22.764] [main/INFO] [REI/]: [REI] Reloaded Plugin Manager [REIPlugin] with 2 plugins in 32.12 ms.
+[16Mar2023 14:33:22.764] [main/INFO] [REI/]: [REI] Reloaded Plugin Manager [REIServerPlugin] with 2 plugins in 9.318 ms.
+[16Mar2023 14:33:23.757] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[16Mar2023 14:33:23.757] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[16Mar2023 14:33:23.757] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: CREATIVE
+[16Mar2023 14:33:23.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[16Mar2023 14:33:23.822] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25566
+[16Mar2023 14:33:23.860] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[16Mar2023 14:33:23.967] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16Mar2023 14:33:23.968] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[16Mar2023 14:33:23.968] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16Mar2023 14:33:23.968] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[16Mar2023 14:33:24.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:         __    
+[16Mar2023 14:33:24.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:   |    |__)   LuckPerms v5.4.58
+[16Mar2023 14:33:24.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:   |___ |      Running on Forge - Forge
+[16Mar2023 14:33:24.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[16Mar2023 14:33:24.079] [Server thread/INFO] [luckperms/]: Loading configuration...
+[16Mar2023 14:33:24.248] [Server thread/INFO] [luckperms/]: Loading storage provider... [H2]
+[16Mar2023 14:33:24.543] [Server thread/INFO] [luckperms/]: Loading internal permission managers...
+[16Mar2023 14:33:24.585] [Server thread/INFO] [luckperms/]: Performing initial data load...
+[16Mar2023 14:33:24.639] [Server thread/INFO] [luckperms/]: Successfully enabled. (took 33028ms)
+[16Mar2023 14:33:24.667] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[16Mar2023 14:33:24.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[16Mar2023 14:33:32.286] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:578) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:119) ~[java.net.http:?]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:139) ~[fmlcore-1.19.2-43.2.0.jar%23130!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:177) ~[fmlcore-1.19.2-43.2.0.jar%23130!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.19.2-43.2.0.jar%23130!/:?]
+Caused by: javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at jdk.internal.net.http.common.SSLTube.checkForHandshake(SSLTube.java:595) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLTube$SSLSubscriberWrapper.onComplete(SSLTube.java:536) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SubscriberWrapper.checkCompletion(SubscriberWrapper.java:472) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SubscriberWrapper$DownstreamPusher.run1(SubscriberWrapper.java:334) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SubscriberWrapper$DownstreamPusher.run(SubscriberWrapper.java:259) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SubscriberWrapper.outgoing(SubscriberWrapper.java:232) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:513) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:268) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[16Mar2023 14:33:32.288] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [basicdiscordrichpresence] Starting version check at https://api.u-team.info/update/basicdiscordrichpresence.json
+[16Mar2023 14:33:34.123] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [basicdiscordrichpresence] Found status: OUTDATED Current: 1.1.1.12 Target: 1.1.1.14
+[16Mar2023 14:33:34.125] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[16Mar2023 14:33:35.937] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 43.2.0 Target: null
+[16Mar2023 14:33:46.292] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.293] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.294] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.294] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.294] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.295] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.295] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.296] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.297] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.298] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.299] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.302] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.303] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.303] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.304] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.304] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.305] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.308] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.309] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.309] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.310] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.316] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.317] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.318] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.318] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.319] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.319] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.320] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.321] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.325] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.326] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.327] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.328] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.329] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.330] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.331] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.333] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.334] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.335] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.336] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.337] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.338] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.338] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.458] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:46.957] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Mar2023 14:33:47.475] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 73%
+[16Mar2023 14:33:47.730] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 22773 ms
+[16Mar2023 14:33:47.731] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (23.749s)! For help, type "help"
+[16Mar2023 14:33:47.741] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler luckperms:permission_handler
+[16Mar2023 14:33:47.760] [Server thread/INFO] [FTB Ranks/]: Loaded 3 ranks
+[16Mar2023 07:21:23.037] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.coremod.CoreMod.uteamcore/COREMODLOG]: Injected ASMUContainerMenuHook call into ServerPlayer#initMenu
+[16Mar2023 13:04:17.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[16Mar2023 13:04:17.748] [Server thread/INFO] [luckperms/]: Starting shutdown process...
+[16Mar2023 13:04:17.751] [Server thread/INFO] [luckperms/]: Closing storage...
+[16Mar2023 13:04:17.785] [Server thread/INFO] [luckperms/]: Goodbye!
+[16Mar2023 13:04:17.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[16Mar2023 13:04:17.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[16Mar2023 13:04:17.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[16Mar2023 13:04:20.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16Mar2023 13:04:20.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[16Mar2023 13:04:20.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[16Mar2023 13:04:20.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16Mar2023 13:04:20.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16Mar2023 13:04:20.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16Mar2023 13:04:20.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
