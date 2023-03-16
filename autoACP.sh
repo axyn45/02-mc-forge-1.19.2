@@ -11,6 +11,4 @@ export COMMIT_DATE=$(date)
 git commit -m "$COMMIT_DATE"
 echo -e "${CYAN}Git pushing...${NC}"
 git push origin master
-axyn45
-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
 echo -e "${GREEN}Backup Done: $COMMIT_DATE${NC}"
