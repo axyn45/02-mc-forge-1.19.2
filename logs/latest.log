@@ -1,76 +1,38 @@
-[12Apr2023 04:46:13.874] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@762ca531
-[12Apr2023 04:46:13.946] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: eho[/42.244.11.26:60813] logged in with entity id 435721 at (165.15136069720617, 123.47624951376508, -31.674823386166647)
-[12Apr2023 04:46:13.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho joined the game
-[12Apr2023 05:00:15.325] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho lost connection: Timed out
-[12Apr2023 05:00:15.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho left the game
-[12Apr2023 05:00:56.323] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@6bb71b55
-[12Apr2023 05:00:56.334] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: eho[/42.244.11.26:54571] logged in with entity id 437415 at (165.34332888259388, 88.13955415679905, -30.73931619324101)
-[12Apr2023 05:00:56.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho joined the game
-[12Apr2023 05:04:44.581] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho moved too quickly! -9.271445717215613,0.0,4.232136812260741
-[12Apr2023 05:06:30.641] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho moved too quickly! -0.47020752076693384,-10.341918379560141,-0.11329964162475292
-[12Apr2023 05:06:47.323] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho moved too quickly! 0.0,-10.125000398883685,0.0
-[12Apr2023 05:13:32.641] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho moved too quickly! -5.649345570897424,0.0,-8.480964766148233
-[12Apr2023 05:13:37.431] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho moved too quickly! -1.9608859585879088,0.0,-10.429601341303197
-[12Apr2023 05:14:14.183] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho moved too quickly! 2.3627782329237164,0.0,10.549111214020655
-[12Apr2023 05:14:19.492] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho moved too quickly! 1.530110583730135,0.0,10.74532852716709
-[12Apr2023 05:14:30.572] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho lost connection: Disconnected
-[12Apr2023 05:14:30.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho left the game
-[12Apr2023 05:51:01.073] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@239ef33b
-[12Apr2023 05:51:01.096] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: eho[/42.244.11.26:60096] logged in with entity id 439613 at (152.9423986821178, 119.23740138973302, -60.02754732703892)
-[12Apr2023 05:51:01.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho joined the game
-[12Apr2023 05:58:19.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [eho: Successfully filled 433 blocks]
-[12Apr2023 05:59:37.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [eho: Successfully filled 287 blocks]
-[12Apr2023 06:03:58.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [eho: Successfully filled 150 blocks]
-[12Apr2023 06:05:07.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [eho: Successfully filled 74 blocks]
-[12Apr2023 06:06:17.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [eho: Successfully filled 25 blocks]
-[12Apr2023 06:07:12.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [eho: Successfully filled 73 blocks]
-[12Apr2023 06:07:40.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [eho: Successfully filled 50 blocks]
-[12Apr2023 06:20:49.174] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho lost connection: Timed out
-[12Apr2023 06:20:49.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho left the game
-[12Apr2023 06:42:37.474] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@35229d5e
-[12Apr2023 06:42:37.485] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: eho[/42.244.11.26:60950] logged in with entity id 443383 at (157.0500941433011, 94.0, -25.36770377229405)
-[12Apr2023 06:42:37.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho joined the game
-[12Apr2023 06:45:22.773] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho lost connection: Timed out
-[12Apr2023 06:45:22.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho left the game
-[12Apr2023 06:45:33.073] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5ae5f495
-[12Apr2023 06:45:33.081] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: eho[/42.244.11.26:60964] logged in with entity id 443764 at (163.33668989622575, 90.0, -23.230759612247557)
-[12Apr2023 06:45:33.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho joined the game
-[12Apr2023 07:03:31.757] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho moved too quickly! -2.489574454089535,-0.03804146325875024,10.305027692610647
-[12Apr2023 07:05:52.003] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho moved too quickly! -9.522950931026969,-0.009908429799267537,4.116747792804631
-[12Apr2023 07:06:02.030] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho moved too quickly! -10.751957322666385,-1.6001801720448157,-0.5921217331716662
-[12Apr2023 07:06:58.017] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho moved too quickly! -9.529670688454416,0.0,3.64583614336226
-[12Apr2023 07:07:06.863] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3055ms or 61 ticks behind
-[12Apr2023 07:09:16.127] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho moved too quickly! -0.10976744201593647,0.0,10.850178866018728
-[12Apr2023 07:09:21.153] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho moved too quickly! -1.8667473215000427,0.0,10.177365662438568
-[12Apr2023 07:12:02.232] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2074ms or 41 ticks behind
-[12Apr2023 07:20:38.266] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho lost connection: Timed out
-[12Apr2023 07:20:38.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho left the game
-[12Apr2023 07:25:18.462] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2d486a15[id=<null>,name=fkdst,properties={},legacy=false] (/222.93.5.200:54371) lost connection: Disconnected
-[12Apr2023 07:27:41.215] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@30aa76fb
-[12Apr2023 07:27:41.299] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: fkdst[/222.93.5.200:54494] logged in with entity id 463597 at (143.4013972133072, 130.11650136792815, 274.1046881678039)
-[12Apr2023 07:27:41.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fkdst joined the game
-[12Apr2023 07:28:42.981] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@53d83b91
-[12Apr2023 07:28:42.988] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: eho[/42.244.11.26:51923] logged in with entity id 463868 at (-338.03935853857456, 104.0, 447.88717641903173)
-[12Apr2023 07:28:43.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho joined the game
-[12Apr2023 07:28:45.477] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2420ms or 48 ticks behind
-[12Apr2023 07:29:08.803] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/463940, l='ServerLevel[world]', x=-402.78, y=59.00, z=377.48] died, message: 'Villager hit the ground too hard'
-[12Apr2023 07:40:17.451] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: fkdst moved too quickly! 10.202605538088505,0.0,-0.750402930156099
-[12Apr2023 07:43:06.223] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: fkdst lost connection: Disconnected
-[12Apr2023 07:43:06.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fkdst left the game
-[12Apr2023 07:52:30.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [eho: Successfully filled 153 blocks]
-[12Apr2023 07:58:19.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [eho: Successfully filled 1199 blocks]
-[12Apr2023 08:32:33.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [eho: Successfully filled 374 blocks]
-[12Apr2023 08:33:46.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [eho: Successfully filled 3910 blocks]
-[12Apr2023 08:34:28.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [eho: Successfully filled 773 blocks]
-[12Apr2023 08:43:07.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [eho: Successfully filled 210 blocks]
-[12Apr2023 09:06:30.350] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho moved too quickly! -9.897173786062694,0.0,4.53307871787095
-[12Apr2023 09:48:26.728] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho lost connection: Timed out
-[12Apr2023 09:48:26.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho left the game
-[12Apr2023 11:27:13.621] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@2b7d41a3
-[12Apr2023 11:27:13.634] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: eho[/42.244.11.26:63092] logged in with entity id 493865 at (159.34930328845, 125.0, -28.072766825456174)
-[12Apr2023 11:27:13.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho joined the game
-[12Apr2023 12:16:05.731] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho lost connection: Disconnected
-[12Apr2023 12:16:05.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho left the game
-[12Apr2023 12:45:48.321] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@77988cab
-[12Apr2023 12:45:48.331] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: eho[/42.244.11.26:62345] logged in with entity id 501544 at (221.55392312566576, 137.82146924129808, 249.9510829729532)
-[12Apr2023 12:45:48.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho joined the game
+[19Apr2023 04:15:25.896] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@19bc9f59
+[19Apr2023 04:15:25.912] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: eho[/42.244.11.42:53868] logged in with entity id 545106 at (252.62030706952876, 137.0625, 228.28251880319579)
+[19Apr2023 04:15:25.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho joined the game
+[19Apr2023 04:55:01.969] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho moved too quickly! -5.462267492985262,-3.1909013491950162,8.142860962644875
+[19Apr2023 05:58:02.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [eho: Successfully filled 1349 blocks]
+[19Apr2023 06:38:24.750] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho lost connection: Timed out
+[19Apr2023 06:38:24.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho left the game
+[19Apr2023 12:56:10.357] [Server console handler/ERROR] [net.minecraft.server.dedicated.DedicatedServer/]: Caught previously unhandled exception :
+java.io.IOError: java.io.IOException: Error executing 'stty -a': stty: 'standard input': Input/output error
+	at org.jline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:54) ~[jline-terminal-3.12.1.jar%2362!/:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:650) ~[jline-reader-3.12.1.jar%2361!/:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:418) ~[jline-reader-3.12.1.jar%2361!/:?]
+	at net.minecraftforge.server.console.TerminalHandler.handleCommands(TerminalHandler.java:46) ~[forge-1.19.2-43.2.0-universal.jar%23138!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:85) ~[server-1.19.2-20220805.130853-srg.jar%23133!/:?]
+Caused by: java.io.IOException: Error executing 'stty -a': stty: 'standard input': Input/output error
+	at org.jline.utils.ExecHelper.exec(ExecHelper.java:42) ~[jline-terminal-3.12.1.jar%2362!/:?]
+	at org.jline.terminal.impl.ExecPty.doGetConfig(ExecPty.java:175) ~[jline-terminal-3.12.1.jar%2362!/:?]
+	at org.jline.terminal.impl.ExecPty.getAttr(ExecPty.java:87) ~[jline-terminal-3.12.1.jar%2362!/:?]
+	at org.jline.terminal.impl.ExecPty.doSetAttr(ExecPty.java:93) ~[jline-terminal-3.12.1.jar%2362!/:?]
+	at org.jline.terminal.impl.AbstractPty.setAttr(AbstractPty.java:29) ~[jline-terminal-3.12.1.jar%2362!/:?]
+	at org.jline.terminal.impl.AbstractPosixTerminal.setAttributes(AbstractPosixTerminal.java:52) ~[jline-terminal-3.12.1.jar%2362!/:?]
+	... 4 more
+[19Apr2023 12:56:11.754] [Server thread/INFO] [mtr.libraries.org.eclipse.jetty.server.AbstractConnector/]: Stopped ServerConnector@2b18d530{HTTP/1.1, (http/1.1)}{0.0.0.0:8888}
+[19Apr2023 12:56:12.050] [Server thread/INFO] [mtr.libraries.org.eclipse.jetty.server.handler.ContextHandler/]: Stopped m.l.o.e.j.s.ServletContextHandler@7103d24d{/,union:/root/instances/02-mc-forge-1.19.2/mods/MTR-forge-1.19.2-3.1.0.jar%23127!/assets/mtr/website,STOPPED}
+[19Apr2023 12:56:12.062] [Server thread/INFO] [luckperms/]: Starting shutdown process...
+[19Apr2023 12:56:13.903] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[19Apr2023 12:56:14.638] [Server thread/INFO] [luckperms/]: Closing storage...
+[19Apr2023 12:56:14.713] [Server thread/INFO] [luckperms/]: Goodbye!
+[19Apr2023 12:56:14.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[19Apr2023 12:56:14.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[19Apr2023 12:56:14.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[19Apr2023 12:56:19.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19Apr2023 12:56:39.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[19Apr2023 12:56:39.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[19Apr2023 12:56:39.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19Apr2023 12:56:39.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19Apr2023 12:56:39.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19Apr2023 12:56:39.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
