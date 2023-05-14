@@ -161,6 +161,12 @@
     },
     "done": true
   },
+  "ironchest:recipes/ironchest/chests/trapped_iron_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2023-05-12 00:49:22 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/spruce_button": {
     "criteria": {
       "has_planks": "2023-04-14 21:11:45 +0800"
@@ -212,6 +218,12 @@
   "minecraft:recipes/misc/flower_banner_pattern": {
     "criteria": {
       "has_oxeye_daisy": "2023-03-29 23:05:02 +0800"
+    },
+    "done": true
+  },
+  "ironchest:recipes/ironchest/chests/trapped_gold_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2023-05-12 00:49:22 +0800"
     },
     "done": true
   },
@@ -287,6 +299,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2023-05-12 00:49:22 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/dried_kelp_from_smoking": {
     "criteria": {
       "has_kelp": "2023-03-30 23:23:14 +0800"
@@ -296,6 +314,12 @@
   "minecraft:recipes/building_blocks/deepslate_tiles_from_polished_deepslate_stonecutting": {
     "criteria": {
       "has_polished_deepslate": "2023-03-29 23:41:04 +0800"
+    },
+    "done": true
+  },
+  "ironchest:recipes/ironchest/chests/diamond_obsidian_chest": {
+    "criteria": {
+      "has_obsidian": "2023-05-12 20:04:27 +0800"
     },
     "done": true
   },
@@ -437,15 +461,33 @@
     },
     "done": true
   },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_helmet": "2023-05-12 20:25:19 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/copper_ingot": {
     "criteria": {
       "has_copper_block": "2023-04-13 12:53:08 +0800"
     },
     "done": true
   },
+  "ironchest:recipes/ironchest/chests/trapped_dirt_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2023-05-12 00:49:22 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/yellow_dye_from_sunflower": {
     "criteria": {
       "has_sunflower": "2023-03-29 19:17:58 +0800"
+    },
+    "done": true
+  },
+  "ironchest:recipes/ironchest/chests/trapped_diamond_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2023-05-12 00:49:22 +0800"
     },
     "done": true
   },
@@ -710,6 +752,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_helmet": "2023-05-12 20:25:19 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
     "criteria": {
       "has_prismarine": "2023-03-29 21:29:21 +0800"
@@ -830,6 +878,12 @@
     },
     "done": true
   },
+  "ironchest:recipes/ironchest/chests/trapped_crystal_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2023-05-12 00:49:22 +0800"
+    },
+    "done": true
+  },
   "minecraft:husbandry/tame_an_animal": {
     "criteria": {
       "tamed_animal": "2023-04-13 19:29:15 +0800"
@@ -896,9 +950,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/light_blue_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2023-05-12 19:43:40 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stripped_acacia_wood": {
     "criteria": {
       "has_log": "2023-03-28 21:59:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_beacon": {
+    "criteria": {
+      "beacon": "2023-05-12 21:03:22 +0800"
     },
     "done": true
   },
@@ -941,6 +1007,12 @@
   "minecraft:recipes/building_blocks/blackstone_stairs": {
     "criteria": {
       "has_blackstone": "2023-03-29 18:26:12 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2023-05-12 19:51:54 +0800"
     },
     "done": true
   },
@@ -1028,6 +1100,12 @@
     },
     "done": true
   },
+  "ironchest:recipes/ironchest/chests/trapped_obsidian_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2023-05-12 00:49:22 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bone_meal": {
     "criteria": {
       "has_bone": "2023-03-28 23:37:29 +0800"
@@ -1085,6 +1163,12 @@
   "minecraft:recipes/building_blocks/polished_blackstone_slab_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2023-03-29 18:26:12 +0800"
+    },
+    "done": true
+  },
+  "ironchest:recipes/ironchest/chests/trapped_copper_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2023-05-12 00:49:22 +0800"
     },
     "done": true
   },
@@ -1160,6 +1244,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_helmet": "2023-05-12 20:25:19 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/smooth_sandstone_slab": {
     "criteria": {
       "has_smooth_sandstone": "2023-04-19 01:19:37 +0800"
@@ -1207,7 +1297,10 @@
       "minecraft:snowy_slopes": "2023-03-28 21:54:31 +0800",
       "minecraft:old_growth_pine_taiga": "2023-02-22 22:39:52 +0800",
       "minecraft:taiga": "2023-02-22 22:20:06 +0800",
+      "minecraft:birch_forest": "2023-05-12 18:27:23 +0800",
+      "minecraft:savanna_plateau": "2023-05-12 18:32:09 +0800",
       "minecraft:beach": "2023-03-28 22:39:35 +0800",
+      "minecraft:dark_forest": "2023-05-12 18:27:40 +0800",
       "minecraft:river": "2023-02-22 22:30:47 +0800",
       "minecraft:stony_shore": "2023-03-27 00:52:17 +0800",
       "minecraft:dripstone_caves": "2023-02-22 23:03:41 +0800",
@@ -1215,7 +1308,10 @@
       "minecraft:jagged_peaks": "2023-03-28 21:53:37 +0800",
       "minecraft:cold_ocean": "2023-04-13 11:16:34 +0800",
       "minecraft:forest": "2023-02-22 22:43:47 +0800",
+      "minecraft:jungle": "2023-05-12 18:27:04 +0800",
+      "minecraft:flower_forest": "2023-05-12 18:32:28 +0800",
       "minecraft:frozen_peaks": "2023-05-09 23:41:30 +0800",
+      "minecraft:old_growth_birch_forest": "2023-05-12 21:10:47 +0800",
       "minecraft:meadow": "2023-02-22 22:33:07 +0800",
       "minecraft:savanna": "2023-02-22 22:51:49 +0800",
       "minecraft:plains": "2023-03-27 00:37:56 +0800"
@@ -1402,6 +1498,18 @@
     },
     "done": true
   },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2023-05-12 20:12:11 +0800"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2023-05-12 20:59:31 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_nugget_from_smelting": {
     "criteria": {
       "has_golden_sword": "2023-04-14 00:46:45 +0800"
@@ -1570,6 +1678,12 @@
     },
     "done": true
   },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2023-05-12 20:12:10 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_pressure_plate": {
     "criteria": {
       "has_planks": "2023-04-14 21:09:23 +0800"
@@ -1633,6 +1747,12 @@
   "minecraft:recipes/decorations/black_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2023-04-14 01:26:09 +0800"
+    },
+    "done": true
+  },
+  "ironchest:recipes/ironchest/chests/vanilla_dirt_chest": {
+    "criteria": {
+      "has_iron_ingot": "2023-05-11 23:38:33 +0800"
     },
     "done": true
   },
@@ -1816,6 +1936,12 @@
     },
     "done": true
   },
+  "ironchest:recipes/ironchest/upgrades/gold_to_diamond_chest_upgrade": {
+    "criteria": {
+      "has_glass": "2023-05-12 19:43:40 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/granite_wall": {
     "criteria": {
       "has_granite": "2023-03-29 23:40:34 +0800"
@@ -1825,6 +1951,12 @@
   "minecraft:recipes/redstone/note_block": {
     "criteria": {
       "has_redstone": "2023-04-13 21:48:10 +0800"
+    },
+    "done": true
+  },
+  "ironchest:recipes/ironchest/chests/diamond_crystal_chest": {
+    "criteria": {
+      "has_glass": "2023-05-12 19:43:40 +0800"
     },
     "done": true
   },
@@ -1855,6 +1987,12 @@
   "minecraft:recipes/building_blocks/polished_diorite_slab_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2023-03-28 23:31:48 +0800"
+    },
+    "done": true
+  },
+  "ironchest:recipes/ironchest/upgrades/copper_to_iron_chest_upgrade": {
+    "criteria": {
+      "has_item": "2023-05-12 19:43:40 +0800"
     },
     "done": true
   },
@@ -2044,6 +2182,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2023-05-12 20:04:27 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dark_oak_wood": {
     "criteria": {
       "has_log": "2023-04-14 01:16:41 +0800"
@@ -2137,6 +2281,12 @@
   "minecraft:recipes/tools/diamond_shovel": {
     "criteria": {
       "has_diamond": "2023-04-19 02:25:00 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2023-05-12 20:12:10 +0800"
     },
     "done": true
   },
@@ -2263,6 +2413,12 @@
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
       "in_water": "2023-02-22 22:52:04 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2023-05-12 00:49:44 +0800"
     },
     "done": true
   },
@@ -2458,6 +2614,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_shell": "2023-05-12 20:27:16 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/spruce_slab": {
     "criteria": {
       "has_planks": "2023-04-14 21:11:45 +0800"
@@ -2473,6 +2635,12 @@
   "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2023-03-29 23:40:34 +0800"
+    },
+    "done": true
+  },
+  "ironchest:recipes/ironchest/upgrades/diamond_to_obsidian_chest_upgrade": {
+    "criteria": {
+      "has_glass": "2023-05-12 19:43:40 +0800"
     },
     "done": true
   },
@@ -2542,6 +2710,12 @@
     },
     "done": true
   },
+  "ironchest:recipes/ironchest/chests/gold_diamond_chest": {
+    "criteria": {
+      "has_diamonds": "2023-05-12 20:14:49 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_basalt": {
     "criteria": {
       "has_basalt": "2023-03-29 18:24:25 +0800"
@@ -2584,6 +2758,12 @@
     },
     "done": true
   },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2023-05-12 20:04:27 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_rabbit": {
     "criteria": {
       "has_rabbit": "2023-04-14 22:09:11 +0800"
@@ -2596,6 +2776,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/light_blue_candle": {
+    "criteria": {
+      "has_light_blue_dye": "2023-05-12 19:31:58 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/repeater": {
     "criteria": {
       "has_redstone_torch": "2023-03-28 22:01:28 +0800"
@@ -2605,6 +2791,12 @@
   "minecraft:recipes/tools/compass": {
     "criteria": {
       "has_redstone": "2023-04-13 21:48:10 +0800"
+    },
+    "done": true
+  },
+  "ironchest:recipes/ironchest/upgrades/diamond_to_crystal_chest_upgrade": {
+    "criteria": {
+      "has_glass": "2023-05-12 19:43:40 +0800"
     },
     "done": true
   },
@@ -2710,6 +2902,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2023-05-12 00:49:44 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2023-02-22 22:52:04 +0800"
@@ -2761,6 +2959,12 @@
   "minecraft:recipes/redstone/piston": {
     "criteria": {
       "has_redstone": "2023-04-13 21:48:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_jungle_wood": {
+    "criteria": {
+      "has_log": "2023-05-12 18:35:47 +0800"
     },
     "done": true
   },
