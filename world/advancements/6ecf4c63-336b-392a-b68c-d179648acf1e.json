@@ -287,6 +287,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2023-05-15 20:00:18 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/purpur_pillar_from_purpur_block_stonecutting": {
     "criteria": {
       "has_purpur_block": "2023-02-20 23:49:25 +0800"
@@ -785,6 +791,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2023-05-18 22:25:52 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_gold_block": {
     "criteria": {
       "has_gold_block": "2023-04-13 11:10:46 +0800"
@@ -1218,6 +1230,7 @@
       "minecraft:ice_spikes": "2023-05-10 22:52:36 +0800",
       "minecraft:frozen_ocean": "2023-05-10 22:48:47 +0800",
       "minecraft:deep_frozen_ocean": "2023-05-10 22:51:59 +0800",
+      "minecraft:windswept_forest": "2023-05-15 21:15:57 +0800",
       "minecraft:ocean": "2023-03-11 16:57:26 +0800",
       "minecraft:jungle": "2023-05-06 00:26:59 +0800",
       "minecraft:old_growth_spruce_taiga": "2023-02-20 00:04:10 +0800",
@@ -1360,6 +1373,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "cod": "2023-05-18 22:25:51 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
     "criteria": {
       "has_kelp": "2023-02-09 12:11:54 +0800"
@@ -1393,6 +1412,12 @@
   "minecraft:recipes/transportation/tnt_minecart": {
     "criteria": {
       "has_minecart": "2023-02-10 14:19:05 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2023-05-18 22:25:52 +0800"
     },
     "done": true
   },
@@ -1817,6 +1842,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2023-05-18 22:25:52 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/jungle_button": {
     "criteria": {
       "has_planks": "2023-02-09 15:41:34 +0800"
@@ -1853,9 +1884,21 @@
     },
     "done": true
   },
+  "ironchest:recipes/ironchest/upgrades/gold_to_diamond_chest_upgrade": {
+    "criteria": {
+      "has_glass": "2023-05-17 12:36:51 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/note_block": {
     "criteria": {
       "has_redstone": "2023-02-18 22:10:37 +0800"
+    },
+    "done": true
+  },
+  "ironchest:recipes/ironchest/chests/diamond_crystal_chest": {
+    "criteria": {
+      "has_glass": "2023-05-17 12:36:51 +0800"
     },
     "done": true
   },
@@ -1880,6 +1923,12 @@
   "minecraft:recipes/building_blocks/polished_diorite_slab_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2023-03-18 13:50:55 +0800"
+    },
+    "done": true
+  },
+  "ironchest:recipes/ironchest/upgrades/copper_to_iron_chest_upgrade": {
+    "criteria": {
+      "has_item": "2023-05-17 12:36:51 +0800"
     },
     "done": true
   },
@@ -2591,6 +2640,12 @@
     },
     "done": true
   },
+  "ironchest:recipes/ironchest/upgrades/diamond_to_obsidian_chest_upgrade": {
+    "criteria": {
+      "has_glass": "2023-05-17 12:36:51 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/jungle_sign": {
     "criteria": {
       "has_planks": "2023-02-09 15:41:34 +0800"
@@ -2732,6 +2787,12 @@
   "minecraft:recipes/tools/compass": {
     "criteria": {
       "has_redstone": "2023-02-18 22:10:37 +0800"
+    },
+    "done": true
+  },
+  "ironchest:recipes/ironchest/upgrades/diamond_to_crystal_chest_upgrade": {
+    "criteria": {
+      "has_glass": "2023-05-17 12:36:50 +0800"
     },
     "done": true
   },
