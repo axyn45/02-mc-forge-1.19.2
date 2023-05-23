@@ -581,6 +581,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/red_carpet": {
+    "criteria": {
+      "has_red_wool": "2023-05-21 23:21:35 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "in_water": "2023-02-22 22:52:04 +0800"
@@ -626,6 +632,12 @@
   "minecraft:recipes/transportation/dark_oak_chest_boat": {
     "criteria": {
       "has_boat": "2023-04-15 21:02:11 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2023-05-22 00:40:18 +0800"
     },
     "done": true
   },
@@ -1088,9 +1100,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2023-05-22 00:40:18 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/quartz_slab_from_stonecutting": {
     "criteria": {
       "has_quartz_block": "2023-03-29 10:50:58 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_banner": {
+    "criteria": {
+      "has_red_wool": "2023-05-21 23:21:35 +0800"
     },
     "done": true
   },
@@ -1309,6 +1333,7 @@
       "minecraft:cold_ocean": "2023-04-13 11:16:34 +0800",
       "minecraft:forest": "2023-02-22 22:43:47 +0800",
       "minecraft:jungle": "2023-05-12 18:27:04 +0800",
+      "minecraft:ocean": "2023-05-22 20:30:37 +0800",
       "minecraft:flower_forest": "2023-05-12 18:32:28 +0800",
       "minecraft:frozen_peaks": "2023-05-09 23:41:30 +0800",
       "minecraft:old_growth_birch_forest": "2023-05-12 21:10:47 +0800",
@@ -1531,6 +1556,12 @@
   "minecraft:recipes/building_blocks/light_gray_wool": {
     "criteria": {
       "has_white_wool": "2023-04-29 23:09:12 +0800"
+    },
+    "done": true
+  },
+  "ironchest:recipes/ironchest/upgrades/wood_to_copper_chest_upgrade": {
+    "criteria": {
+      "has_item": "2023-05-22 20:57:08 +0800"
     },
     "done": true
   },
@@ -2035,6 +2066,12 @@
   "minecraft:recipes/building_blocks/acacia_slab": {
     "criteria": {
       "has_planks": "2023-04-13 12:37:34 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2023-05-21 21:56:43 +0800"
     },
     "done": true
   },
@@ -2584,6 +2621,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2023-05-22 00:40:18 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_nugget_from_blasting": {
     "criteria": {
       "has_golden_sword": "2023-04-14 00:46:45 +0800"
@@ -2872,6 +2915,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/red_bed": {
+    "criteria": {
+      "has_red_wool": "2023-05-21 23:21:35 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2023-03-29 18:26:12 +0800"
@@ -3004,6 +3053,12 @@
   "minecraft:recipes/transportation/rail": {
     "criteria": {
       "has_minecart": "2023-03-27 00:12:20 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2023-05-22 20:56:12 +0800"
     },
     "done": true
   },
