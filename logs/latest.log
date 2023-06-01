@@ -1,62 +1,62 @@
-[28May2023 14:22:52.832] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.2.0, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
-[28May2023 14:22:52.852] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.7 by Private Build; OS Linux arch amd64 version 5.15.0-72-generic
-[28May2023 14:22:53.988] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/root/instances/02-mc-forge-1.19.2/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
-[28May2023 14:22:54.404] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /root/instances/02-mc-forge-1.19.2/libraries/net/minecraftforge/fmlcore/1.19.2-43.2.0/fmlcore-1.19.2-43.2.0.jar is missing mods.toml file
-[28May2023 14:22:54.405] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /root/instances/02-mc-forge-1.19.2/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.2.0/javafmllanguage-1.19.2-43.2.0.jar is missing mods.toml file
-[28May2023 14:22:54.407] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /root/instances/02-mc-forge-1.19.2/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.2.0/lowcodelanguage-1.19.2-43.2.0.jar is missing mods.toml file
-[28May2023 14:22:54.408] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /root/instances/02-mc-forge-1.19.2/libraries/net/minecraftforge/mclanguage/1.19.2-43.2.0/mclanguage-1.19.2-43.2.0.jar is missing mods.toml file
-[28May2023 14:22:54.506] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[28May2023 14:22:56.836] [main/ERROR] [mixin/]: Mixin config rei.mixins.json does not specify "minVersion" property
-[28May2023 14:22:56.843] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[28May2023 14:22:56.845] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[28May2023 14:22:57.068] [main/INFO] [net.minecraftforge.coremod.CoreMod.uteamcore/COREMODLOG]: Injected ASMUContainerMenuHook call into ServerPlayer#initMenu
-[28May2023 14:23:02.253] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[28May2023 14:23:02.628] [main/INFO] [net.minecraftforge.coremod.CoreMod.uteamcore/COREMODLOG]: Injected ASMUContainerMenuHook call into ServerPlayer#initMenu
-[28May2023 14:23:04.302] [modloading-worker-0/INFO] [Dynmap/]: [Dynmap] Mod Support API available
-[28May2023 14:23:04.331] [modloading-worker-0/INFO] [JarSignVerifier/]: Mod usefulrailroads is signed with a valid certificate.
-[28May2023 14:23:04.359] [modloading-worker-0/INFO] [JarSignVerifier/]: Mod basicdiscordrichpresence is signed with a valid certificate.
-[28May2023 14:23:04.367] [modloading-worker-0/INFO] [JarSignVerifier/]: Mod uteamcore is signed with a valid certificate.
-[28May2023 14:23:04.460] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[28May2023 14:23:04.461] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
-[28May2023 14:23:04.591] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.2.0, for MC 1.19.2 with MCP 20220805.130853
-[28May2023 14:23:04.591] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.2.0 Initialized
-[28May2023 14:23:04.611] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
-[28May2023 14:23:04.612] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIServerPlugin
-[28May2023 14:23:04.628] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIPlugin
-[28May2023 14:23:04.631] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
-[28May2023 14:23:04.631] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
-[28May2023 14:23:04.637] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:delete_item
-[28May2023 14:23:04.645] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item
-[28May2023 14:23:04.649] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
-[28May2023 14:23:04.659] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
-[28May2023 14:23:04.660] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:move_items
-[28May2023 14:23:04.712] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_press_lift_button
-[28May2023 14:23:04.712] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_lift_track_floor
-[28May2023 14:23:04.714] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_generate_path
-[28May2023 14:23:04.714] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_clear_trains
-[28May2023 14:23:04.714] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_sign_types
-[28May2023 14:23:04.715] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_add_balance
-[28May2023 14:23:04.715] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_pids_update
-[28May2023 14:23:04.715] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_arrival_projector_update
-[28May2023 14:23:04.715] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_use_time_and_wind_sync
-[28May2023 14:23:04.715] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_station
-[28May2023 14:23:04.715] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_platform
-[28May2023 14:23:04.716] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_siding
-[28May2023 14:23:04.716] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_route
-[28May2023 14:23:04.716] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_depot
-[28May2023 14:23:04.716] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_delete_station
-[28May2023 14:23:04.716] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_delete_platform
-[28May2023 14:23:04.716] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_delete_siding
-[28May2023 14:23:04.716] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_delete_route
-[28May2023 14:23:04.717] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_delete_depot
-[28May2023 14:23:04.717] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_train_announcer
-[28May2023 14:23:04.717] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_remove_rail_action
-[28May2023 14:23:04.717] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:update_train_passenger_position
-[28May2023 14:23:04.717] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:update_entity_seat_position
-[28May2023 14:23:04.717] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_drive_train
-[28May2023 14:23:04.742] [modloading-worker-0/INFO] [mtr.libraries.org.eclipse.jetty.util.log/]: Logging initialized @15062ms to mtr.libraries.org.eclipse.jetty.util.log.Slf4jLog
-[28May2023 14:23:05.750] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [usefulrailroads] Starting version check at https://api.u-team.info/update/usefulrailroads.json
-[28May2023 14:23:09.220] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[01Jun2023 14:47:24.359] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.2.0, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[01Jun2023 14:47:24.365] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.7 by Private Build; OS Linux arch amd64 version 5.15.0-72-generic
+[01Jun2023 14:47:25.550] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/root/instances/02-mc-forge-1.19.2/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[01Jun2023 14:47:26.116] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /root/instances/02-mc-forge-1.19.2/libraries/net/minecraftforge/fmlcore/1.19.2-43.2.0/fmlcore-1.19.2-43.2.0.jar is missing mods.toml file
+[01Jun2023 14:47:26.119] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /root/instances/02-mc-forge-1.19.2/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.2.0/javafmllanguage-1.19.2-43.2.0.jar is missing mods.toml file
+[01Jun2023 14:47:26.121] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /root/instances/02-mc-forge-1.19.2/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.2.0/lowcodelanguage-1.19.2-43.2.0.jar is missing mods.toml file
+[01Jun2023 14:47:26.123] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /root/instances/02-mc-forge-1.19.2/libraries/net/minecraftforge/mclanguage/1.19.2-43.2.0/mclanguage-1.19.2-43.2.0.jar is missing mods.toml file
+[01Jun2023 14:47:26.237] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[01Jun2023 14:47:28.288] [main/ERROR] [mixin/]: Mixin config rei.mixins.json does not specify "minVersion" property
+[01Jun2023 14:47:28.294] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[01Jun2023 14:47:28.296] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[01Jun2023 14:47:28.435] [main/INFO] [net.minecraftforge.coremod.CoreMod.uteamcore/COREMODLOG]: Injected ASMUContainerMenuHook call into ServerPlayer#initMenu
+[01Jun2023 14:47:33.916] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[01Jun2023 14:47:34.233] [main/INFO] [net.minecraftforge.coremod.CoreMod.uteamcore/COREMODLOG]: Injected ASMUContainerMenuHook call into ServerPlayer#initMenu
+[01Jun2023 14:47:35.709] [modloading-worker-0/INFO] [Dynmap/]: [Dynmap] Mod Support API available
+[01Jun2023 14:47:35.762] [modloading-worker-0/INFO] [JarSignVerifier/]: Mod usefulrailroads is signed with a valid certificate.
+[01Jun2023 14:47:35.786] [modloading-worker-0/INFO] [JarSignVerifier/]: Mod basicdiscordrichpresence is signed with a valid certificate.
+[01Jun2023 14:47:35.804] [modloading-worker-0/INFO] [JarSignVerifier/]: Mod uteamcore is signed with a valid certificate.
+[01Jun2023 14:47:35.858] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[01Jun2023 14:47:35.872] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[01Jun2023 14:47:35.952] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.2.0, for MC 1.19.2 with MCP 20220805.130853
+[01Jun2023 14:47:35.952] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.2.0 Initialized
+[01Jun2023 14:47:36.017] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[01Jun2023 14:47:36.030] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIServerPlugin
+[01Jun2023 14:47:36.030] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultPluginImpl [roughlyenoughitems] for REIPlugin
+[01Jun2023 14:47:36.032] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[01Jun2023 14:47:36.032] [modloading-worker-0/INFO] [REI/]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[01Jun2023 14:47:36.045] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[01Jun2023 14:47:36.045] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item
+[01Jun2023 14:47:36.046] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[01Jun2023 14:47:36.046] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[01Jun2023 14:47:36.046] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id roughlyenoughitems:move_items
+[01Jun2023 14:47:36.073] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_press_lift_button
+[01Jun2023 14:47:36.073] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_lift_track_floor
+[01Jun2023 14:47:36.075] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_generate_path
+[01Jun2023 14:47:36.076] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_clear_trains
+[01Jun2023 14:47:36.076] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_sign_types
+[01Jun2023 14:47:36.076] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_add_balance
+[01Jun2023 14:47:36.076] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_pids_update
+[01Jun2023 14:47:36.076] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_arrival_projector_update
+[01Jun2023 14:47:36.077] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_use_time_and_wind_sync
+[01Jun2023 14:47:36.077] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_station
+[01Jun2023 14:47:36.077] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_platform
+[01Jun2023 14:47:36.077] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_siding
+[01Jun2023 14:47:36.077] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_route
+[01Jun2023 14:47:36.077] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_depot
+[01Jun2023 14:47:36.077] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_delete_station
+[01Jun2023 14:47:36.078] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_delete_platform
+[01Jun2023 14:47:36.078] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_delete_siding
+[01Jun2023 14:47:36.078] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_delete_route
+[01Jun2023 14:47:36.078] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_delete_depot
+[01Jun2023 14:47:36.078] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_update_train_announcer
+[01Jun2023 14:47:36.078] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_remove_rail_action
+[01Jun2023 14:47:36.078] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:update_train_passenger_position
+[01Jun2023 14:47:36.079] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:update_entity_seat_position
+[01Jun2023 14:47:36.079] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id mtr:packet_drive_train
+[01Jun2023 14:47:36.105] [modloading-worker-0/INFO] [mtr.libraries.org.eclipse.jetty.util.log/]: Logging initialized @15079ms to mtr.libraries.org.eclipse.jetty.util.log.Slf4jLog
+[01Jun2023 14:47:37.074] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [usefulrailroads] Starting version check at https://api.u-team.info/update/usefulrailroads.json
+[01Jun2023 14:47:57.434] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
 	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:578) ~[java.net.http:?]
 	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123) ~[java.net.http:?]
@@ -84,8 +84,51 @@ Caused by: javax.net.ssl.SSLHandshakeException: Remote host terminated the hands
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[28May2023 14:23:09.221] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
-[28May2023 14:23:09.278] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[01Jun2023 14:47:57.436] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
+[01Jun2023 14:48:02.070] [modloading-worker-0/WARN] [citadel/]: Failed to load patreon contributor perks
+[01Jun2023 14:48:02.074] [modloading-worker-0/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[01Jun2023 14:48:02.076] [main/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[01Jun2023 14:48:04.443] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01Jun2023 14:48:06.494] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/root/instances/02-mc-forge-1.19.2/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23139!/assets/.mcassetsroot' uses unexpected schema
+[01Jun2023 14:48:06.494] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/root/instances/02-mc-forge-1.19.2/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23139!/data/.mcassetsroot' uses unexpected schema
+[01Jun2023 14:48:07.946] [main/INFO] [FTB Ranks/]: Loading command nodes...
+[01Jun2023 14:48:07.965] [main/INFO] [FTB Ranks/]: Loaded 1446 command nodes
+[01Jun2023 14:48:08.581] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe simpleplanes:plane_book as it's serializer returned null
+[01Jun2023 14:48:08.587] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 10 recipes
+[01Jun2023 14:48:09.057] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1220 advancements
+[01Jun2023 14:48:09.081] [main/INFO] [REI/]: [REI] Reloading Plugin Manager [REIPlugin] stage [START], registered 2 plugins: DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems], DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[01Jun2023 14:48:09.099] [main/INFO] [REI/]: [REI] Reloading Plugin Manager [REIServerPlugin] stage [START], registered 2 plugins: DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems], DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[01Jun2023 14:48:09.101] [main/INFO] [REI/]: [REI] Reloaded Plugin Manager [REIPlugin] with 2 plugins in 38.07 ms.
+[01Jun2023 14:48:09.102] [main/INFO] [REI/]: [REI] Reloaded Plugin Manager [REIServerPlugin] with 2 plugins in 2.342 ms.
+[01Jun2023 14:48:09.104] [main/INFO] [REI/]: [REI] Reloading Plugin Manager [REIPlugin] stage [END], registered 2 plugins: DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems], DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[01Jun2023 14:48:09.133] [main/INFO] [REI/]: [REI] Reloading Plugin Manager [REIServerPlugin] stage [END], registered 2 plugins: DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems], DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
+[01Jun2023 14:48:09.141] [main/INFO] [REI/]: [REI] Reloaded Plugin Manager [REIPlugin] with 2 plugins in 30.31 ms.
+[01Jun2023 14:48:09.141] [main/INFO] [REI/]: [REI] Reloaded Plugin Manager [REIServerPlugin] with 2 plugins in 8.557 ms.
+[01Jun2023 14:48:10.806] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[01Jun2023 14:48:10.807] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[01Jun2023 14:48:10.807] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: CREATIVE
+[01Jun2023 14:48:10.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[01Jun2023 14:48:10.918] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25599
+[01Jun2023 14:48:10.945] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[01Jun2023 14:48:11.038] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01Jun2023 14:48:11.039] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[01Jun2023 14:48:11.039] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01Jun2023 14:48:11.039] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[01Jun2023 14:48:11.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:         __    
+[01Jun2023 14:48:11.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:   |    |__)   LuckPerms v5.4.58
+[01Jun2023 14:48:11.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:   |___ |      Running on Forge - Forge
+[01Jun2023 14:48:11.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
+[01Jun2023 14:48:11.144] [Server thread/INFO] [luckperms/]: Loading configuration...
+[01Jun2023 14:48:11.332] [Server thread/INFO] [luckperms/]: Loading storage provider... [H2]
+[01Jun2023 14:48:11.785] [Server thread/INFO] [luckperms/]: Loading internal permission managers...
+[01Jun2023 14:48:11.856] [Server thread/INFO] [luckperms/]: Performing initial data load...
+[01Jun2023 14:48:11.910] [Server thread/INFO] [luckperms/]: Successfully enabled. (took 35035ms)
+[01Jun2023 14:48:12.031] [Server thread/INFO] [Dynmap/]: [Dynmap] Added 19 custom biome mappings
+[01Jun2023 14:48:12.045] [Server thread/INFO] [Dynmap/]: [Dynmap] Using ops.txt for access control
+[01Jun2023 14:48:12.287] [Server thread/INFO] [Dynmap/]: [Dynmap] Register commands
+[01Jun2023 14:48:12.332] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[01Jun2023 14:48:12.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[01Jun2023 14:48:17.443] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
 	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:578) ~[java.net.http:?]
 	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123) ~[java.net.http:?]
@@ -113,8 +156,51 @@ Caused by: javax.net.ssl.SSLHandshakeException: Remote host terminated the hands
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[28May2023 14:23:09.286] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [basicdiscordrichpresence] Starting version check at https://api.u-team.info/update/basicdiscordrichpresence.json
-[28May2023 14:23:19.308] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[01Jun2023 14:48:17.446] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [basicdiscordrichpresence] Starting version check at https://api.u-team.info/update/basicdiscordrichpresence.json
+[01Jun2023 14:48:19.197] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2023 14:48:19.200] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2023 14:48:19.203] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2023 14:48:19.238] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2023 14:48:19.321] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2023 14:48:19.346] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2023 14:48:19.383] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2023 14:48:19.397] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2023 14:48:19.441] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2023 14:48:19.467] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2023 14:48:19.483] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2023 14:48:19.503] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2023 14:48:19.544] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2023 14:48:19.550] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2023 14:48:19.798] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2023 14:48:20.269] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Jun2023 14:48:20.769] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
+[01Jun2023 14:48:21.269] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
+[01Jun2023 14:48:21.631] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8863 ms
+[01Jun2023 14:48:21.632] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.581s)! For help, type "help"
+[01Jun2023 14:48:21.646] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler luckperms:permission_handler
+[01Jun2023 14:48:21.657] [Server thread/INFO] [mtr.libraries.org.eclipse.jetty.server.Server/]: jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.7+7-Ubuntu-0ubuntu122.04.2
+[01Jun2023 14:48:21.733] [Server thread/INFO] [mtr.libraries.org.eclipse.jetty.server.handler.ContextHandler/]: Started m.l.o.e.j.s.ServletContextHandler@2df2d0ee{/,union:/root/instances/02-mc-forge-1.19.2/mods/MTR-forge-1.19.2-3.1.0.jar%23132!/assets/mtr/website,AVAILABLE}
+[01Jun2023 14:48:21.755] [Server thread/INFO] [mtr.libraries.org.eclipse.jetty.server.AbstractConnector/]: Started ServerConnector@3bbb3ff5{HTTP/1.1, (http/1.1)}{0.0.0.0:8888}
+[01Jun2023 14:48:21.755] [Server thread/INFO] [mtr.libraries.org.eclipse.jetty.server.Server/]: Started @60730ms
+[01Jun2023 14:48:21.767] [Server thread/INFO] [FTB Ranks/]: Loaded 3 ranks
+[01Jun2023 14:48:22.007] [Server thread/INFO] [Dynmap/]: [Dynmap] Mod Support processing completed
+[01Jun2023 14:48:25.630] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 27 shaders.
+[01Jun2023 14:48:25.651] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 83 perspectives.
+[01Jun2023 14:48:25.659] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 22 lightings.
+[01Jun2023 14:48:25.675] [Server thread/INFO] [Dynmap/]: [Dynmap] Starting enter/exit processing
+[01Jun2023 14:48:25.788] [Dynmap Render Thread/INFO] [Dynmap/]: [Dynmap] Finish marker initialization
+[01Jun2023 14:48:25.911] [Server thread/INFO] [Dynmap/]: [Dynmap] Web server started on address 0.0.0.0:8123
+[01Jun2023 14:48:25.913] [Server thread/INFO] [Dynmap/]: [Dynmap] version 3.5-873 is enabled - core version 3.5-873
+[01Jun2023 14:48:25.913] [Server thread/INFO] [Dynmap/]: [Dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
+[01Jun2023 14:48:25.913] [Server thread/INFO] [Dynmap/]: [Dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
+[01Jun2023 14:48:25.914] [Server thread/INFO] [Dynmap/]: [Dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[01Jun2023 14:48:25.914] [Server thread/INFO] [Dynmap/]: [Dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[01Jun2023 14:48:25.938] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 3 maps of world 'world'.
+[01Jun2023 14:48:25.940] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 2 maps of world 'DIM1'.
+[01Jun2023 14:48:25.940] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 2 maps of world 'DIM-1'.
+[01Jun2023 14:48:25.977] [Server thread/INFO] [Dynmap/]: [Dynmap] Register events
+[01Jun2023 14:48:25.977] [Server thread/INFO] [Dynmap/]: [Dynmap] Enabled
+[01Jun2023 14:48:37.479] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
 	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:578) ~[java.net.http:?]
 	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123) ~[java.net.http:?]
@@ -142,116 +228,61 @@ Caused by: javax.net.ssl.SSLHandshakeException: Remote host terminated the hands
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[28May2023 14:23:19.309] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[28May2023 14:23:30.766] [modloading-worker-0/WARN] [citadel/]: Failed to load patreon contributor perks
-[28May2023 14:23:30.776] [modloading-worker-0/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[28May2023 14:23:30.778] [main/INFO] [xaero.common.server.XaeroMinimapServer/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[28May2023 14:23:33.004] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[28May2023 14:23:34.858] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/root/instances/02-mc-forge-1.19.2/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23139!/assets/.mcassetsroot' uses unexpected schema
-[28May2023 14:23:34.859] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/root/instances/02-mc-forge-1.19.2/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23139!/data/.mcassetsroot' uses unexpected schema
-[28May2023 14:23:36.670] [main/INFO] [FTB Ranks/]: Loading command nodes...
-[28May2023 14:23:36.694] [main/INFO] [FTB Ranks/]: Loaded 1446 command nodes
-[28May2023 14:23:37.324] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe simpleplanes:plane_book as it's serializer returned null
-[28May2023 14:23:37.341] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 10 recipes
-[28May2023 14:23:37.776] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 43.2.0 Target: null
-[28May2023 14:23:37.977] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1220 advancements
-[28May2023 14:23:37.997] [main/INFO] [REI/]: [REI] Reloading Plugin Manager [REIPlugin] stage [START], registered 2 plugins: DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems], DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
-[28May2023 14:23:38.012] [main/INFO] [REI/]: [REI] Reloading Plugin Manager [REIServerPlugin] stage [START], registered 2 plugins: DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems], DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
-[28May2023 14:23:38.014] [main/INFO] [REI/]: [REI] Reloaded Plugin Manager [REIPlugin] with 2 plugins in 31.46 ms.
-[28May2023 14:23:38.015] [main/INFO] [REI/]: [REI] Reloaded Plugin Manager [REIServerPlugin] with 2 plugins in 2.194 ms.
-[28May2023 14:23:38.017] [main/INFO] [REI/]: [REI] Reloading Plugin Manager [REIPlugin] stage [END], registered 2 plugins: DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems], DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
-[28May2023 14:23:38.039] [main/INFO] [REI/]: [REI] Reloading Plugin Manager [REIServerPlugin] stage [END], registered 2 plugins: DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems], DefaultPluginImpl of DefaultPluginImpl [roughlyenoughitems]
-[28May2023 14:23:38.047] [main/INFO] [REI/]: [REI] Reloaded Plugin Manager [REIPlugin] with 2 plugins in 23.68 ms.
-[28May2023 14:23:38.047] [main/INFO] [REI/]: [REI] Reloaded Plugin Manager [REIServerPlugin] with 2 plugins in 7.947 ms.
-[28May2023 14:23:39.716] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
-[28May2023 14:23:39.717] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[28May2023 14:23:39.717] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: CREATIVE
-[28May2023 14:23:39.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[28May2023 14:23:39.817] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25599
-[28May2023 14:23:39.856] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[28May2023 14:23:39.955] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[28May2023 14:23:39.957] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[28May2023 14:23:39.957] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[28May2023 14:23:39.957] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[28May2023 14:23:40.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:         __    
-[28May2023 14:23:40.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:   |    |__)   LuckPerms v5.4.58
-[28May2023 14:23:40.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:   |___ |      Running on Forge - Forge
-[28May2023 14:23:40.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
-[28May2023 14:23:40.112] [Server thread/INFO] [luckperms/]: Loading configuration...
-[28May2023 14:23:40.404] [Server thread/INFO] [luckperms/]: Loading storage provider... [H2]
-[28May2023 14:23:40.828] [Server thread/INFO] [luckperms/]: Loading internal permission managers...
-[28May2023 14:23:40.867] [Server thread/INFO] [luckperms/]: Performing initial data load...
-[28May2023 14:23:40.944] [Server thread/INFO] [luckperms/]: Successfully enabled. (took 35432ms)
-[28May2023 14:23:41.091] [Server thread/INFO] [Dynmap/]: [Dynmap] Added 19 custom biome mappings
-[28May2023 14:23:41.106] [Server thread/INFO] [Dynmap/]: [Dynmap] Using ops.txt for access control
-[28May2023 14:23:41.363] [Server thread/INFO] [Dynmap/]: [Dynmap] Register commands
-[28May2023 14:23:41.392] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[28May2023 14:23:41.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[28May2023 14:23:45.900] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28May2023 14:23:45.908] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28May2023 14:23:45.909] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28May2023 14:23:45.915] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28May2023 14:23:45.956] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28May2023 14:23:45.967] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28May2023 14:23:45.976] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28May2023 14:23:45.989] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28May2023 14:23:46.001] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28May2023 14:23:46.246] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28May2023 14:23:46.750] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28May2023 14:23:47.249] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28May2023 14:23:47.748] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28May2023 14:23:48.246] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28May2023 14:23:48.748] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28May2023 14:23:49.244] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
-[28May2023 14:23:49.745] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 92%
-[28May2023 14:23:49.812] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8069 ms
-[28May2023 14:23:49.813] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.837s)! For help, type "help"
-[28May2023 14:23:49.825] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler luckperms:permission_handler
-[28May2023 14:23:49.836] [Server thread/INFO] [mtr.libraries.org.eclipse.jetty.server.Server/]: jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 17.0.7+7-Ubuntu-0ubuntu122.04.2
-[28May2023 14:23:49.918] [Server thread/INFO] [mtr.libraries.org.eclipse.jetty.server.handler.ContextHandler/]: Started m.l.o.e.j.s.ServletContextHandler@896268a{/,union:/root/instances/02-mc-forge-1.19.2/mods/MTR-forge-1.19.2-3.1.0.jar%23132!/assets/mtr/website,AVAILABLE}
-[28May2023 14:23:49.935] [Server thread/INFO] [mtr.libraries.org.eclipse.jetty.server.AbstractConnector/]: Started ServerConnector@6d88a201{HTTP/1.1, (http/1.1)}{0.0.0.0:8888}
-[28May2023 14:23:49.936] [Server thread/INFO] [mtr.libraries.org.eclipse.jetty.server.Server/]: Started @60256ms
-[28May2023 14:23:49.949] [Server thread/INFO] [FTB Ranks/]: Loaded 3 ranks
-[28May2023 14:23:50.140] [Server thread/INFO] [Dynmap/]: [Dynmap] Mod Support processing completed
-[28May2023 14:23:54.011] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 27 shaders.
-[28May2023 14:23:54.090] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 83 perspectives.
-[28May2023 14:23:54.106] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 22 lightings.
-[28May2023 14:23:54.170] [Server thread/INFO] [Dynmap/]: [Dynmap] Starting enter/exit processing
-[28May2023 14:23:54.300] [Dynmap Render Thread/INFO] [Dynmap/]: [Dynmap] Finish marker initialization
-[28May2023 14:23:54.516] [Server thread/INFO] [Dynmap/]: [Dynmap] Web server started on address 0.0.0.0:8123
-[28May2023 14:23:54.518] [Server thread/INFO] [Dynmap/]: [Dynmap] version 3.5-873 is enabled - core version 3.5-873
-[28May2023 14:23:54.519] [Server thread/INFO] [Dynmap/]: [Dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
-[28May2023 14:23:54.519] [Server thread/INFO] [Dynmap/]: [Dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
-[28May2023 14:23:54.519] [Server thread/INFO] [Dynmap/]: [Dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
-[28May2023 14:23:54.520] [Server thread/INFO] [Dynmap/]: [Dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
-[28May2023 14:23:54.538] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 3 maps of world 'world'.
-[28May2023 14:23:54.540] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 2 maps of world 'DIM1'.
-[28May2023 14:23:54.541] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 2 maps of world 'DIM-1'.
-[28May2023 14:23:54.582] [Server thread/INFO] [Dynmap/]: [Dynmap] Register events
-[28May2023 14:23:54.583] [Server thread/INFO] [Dynmap/]: [Dynmap] Enabled
-[28May2023 12:14:25.369] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3b434e08
-[28May2023 12:14:25.387] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: eho[/10.0.0.1:56764] logged in with entity id 29 at (254.0141488685894, 137.0625, 231.31775726097845)
-[28May2023 12:14:25.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho joined the game
-[28May2023 12:15:09.849] [Dynmap Render Thread/INFO] [Dynmap/]: [Dynmap] Loading resource pack standard
-[28May2023 12:17:39.747] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho moved too quickly! -9.544025030352088,3.1909013491950162,-0.17243855894933802
-[28May2023 13:11:27.900] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho lost connection: Disconnected
-[28May2023 13:11:27.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho left the game
-[28May2023 23:24:30.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[28May2023 23:24:30.829] [Server thread/INFO] [mtr.libraries.org.eclipse.jetty.server.AbstractConnector/]: Stopped ServerConnector@6d88a201{HTTP/1.1, (http/1.1)}{0.0.0.0:8888}
-[28May2023 23:24:30.837] [Server thread/INFO] [mtr.libraries.org.eclipse.jetty.server.handler.ContextHandler/]: Stopped m.l.o.e.j.s.ServletContextHandler@896268a{/,union:/root/instances/02-mc-forge-1.19.2/mods/MTR-forge-1.19.2-3.1.0.jar%23132!/assets/mtr/website,STOPPED}
-[28May2023 23:24:30.923] [Server thread/INFO] [Dynmap/]: [Dynmap] Unloaded 11 components.
-[28May2023 23:24:30.923] [Server thread/INFO] [Dynmap/]: [Dynmap] Stopping map renderer...
-[28May2023 23:24:31.925] [Server thread/INFO] [Dynmap/]: [Dynmap] Disabled
-[28May2023 23:24:31.926] [Server thread/INFO] [luckperms/]: Starting shutdown process...
-[28May2023 23:24:31.934] [Server thread/INFO] [luckperms/]: Closing storage...
-[28May2023 23:24:31.983] [Server thread/INFO] [luckperms/]: Goodbye!
-[28May2023 23:24:32.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[28May2023 23:24:32.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[28May2023 23:24:32.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[28May2023 23:24:34.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[28May2023 23:24:34.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[28May2023 23:24:34.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[28May2023 23:24:34.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[28May2023 23:24:34.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[28May2023 23:24:34.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[28May2023 23:24:34.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01Jun2023 14:48:37.480] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[01Jun2023 14:48:46.324] [Thread-29/INFO] [Dynmap/]: [Dynmap] Error checking for latest version
+[01Jun2023 14:48:54.824] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:578) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123) ~[java.net.http:?]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:139) ~[fmlcore-1.19.2-43.2.0.jar%23140!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:177) ~[fmlcore-1.19.2-43.2.0.jar%23140!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.19.2-43.2.0.jar%23140!/:?]
+Caused by: javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at jdk.internal.net.http.common.SSLTube.checkForHandshake(SSLTube.java:595) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLTube$SSLSubscriberWrapper.onComplete(SSLTube.java:536) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SubscriberWrapper.checkCompletion(SubscriberWrapper.java:472) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SubscriberWrapper$DownstreamPusher.run1(SubscriberWrapper.java:334) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SubscriberWrapper$DownstreamPusher.run(SubscriberWrapper.java:259) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SubscriberWrapper.outgoing(SubscriberWrapper.java:232) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:513) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:268) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[01Jun2023 12:34:49.871] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@44533787
+[01Jun2023 12:34:49.888] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: eho[/10.0.0.1:48638] logged in with entity id 82 at (213.07736453753498, 123.32815702744847, 351.54445739265054)
+[01Jun2023 12:34:49.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho joined the game
+[01Jun2023 12:34:52.489] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2606ms or 52 ticks behind
+[01Jun2023 12:35:54.612] [Dynmap Render Thread/INFO] [Dynmap/]: [Dynmap] Loading resource pack standard
+[01Jun2023 12:57:22.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [eho: Successfully filled 58 blocks]
+[01Jun2023 13:11:43.015] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho moved too quickly! 10.410766266036802,0.0,-0.9114975615628964
+[01Jun2023 13:16:55.795] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: eho lost connection: Disconnected
+[01Jun2023 13:16:55.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: eho left the game
+[01Jun2023 14:35:58.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[01Jun2023 14:35:58.954] [Server thread/INFO] [mtr.libraries.org.eclipse.jetty.server.AbstractConnector/]: Stopped ServerConnector@3bbb3ff5{HTTP/1.1, (http/1.1)}{0.0.0.0:8888}
+[01Jun2023 14:35:58.960] [Server thread/INFO] [mtr.libraries.org.eclipse.jetty.server.handler.ContextHandler/]: Stopped m.l.o.e.j.s.ServletContextHandler@2df2d0ee{/,union:/root/instances/02-mc-forge-1.19.2/mods/MTR-forge-1.19.2-3.1.0.jar%23132!/assets/mtr/website,STOPPED}
+[01Jun2023 14:35:58.986] [Server thread/INFO] [Dynmap/]: [Dynmap] Unloaded 11 components.
+[01Jun2023 14:35:58.986] [Server thread/INFO] [Dynmap/]: [Dynmap] Stopping map renderer...
+[01Jun2023 14:35:59.988] [Server thread/INFO] [Dynmap/]: [Dynmap] Disabled
+[01Jun2023 14:35:59.989] [Server thread/INFO] [luckperms/]: Starting shutdown process...
+[01Jun2023 14:35:59.994] [Server thread/INFO] [luckperms/]: Closing storage...
+[01Jun2023 14:36:00.033] [Server thread/INFO] [luckperms/]: Goodbye!
+[01Jun2023 14:36:00.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[01Jun2023 14:36:00.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[01Jun2023 14:36:00.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[01Jun2023 14:36:02.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01Jun2023 14:36:02.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01Jun2023 14:36:02.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01Jun2023 14:36:02.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01Jun2023 14:36:02.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01Jun2023 14:36:02.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01Jun2023 14:36:02.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
