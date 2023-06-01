@@ -4,11 +4,19 @@ YELLOW='\033[1;33m'
 CYAN='\033[0;36m'
 PURPLE='\033[1;35m'
 NC='\033[0m'
+
 echo -e "${YELLOW}Git adding...${NC}"
 git add .
-echo -e "${PURPLE}Git committing...${NC}"
-export COMMIT_DATE=$(date)
-git commit -m "$COMMIT_DATE"
-echo -e "${CYAN}Git pushing...${NC}"
-git push origin master
-echo -e "${GREEN}Backup Done: $COMMIT_DATE${NC}"
+VAR1=$(git diff --staged)
+VAR2=""
+if [ "$VAR1" = "$VAR2" ]
+then
+    echo "No changes made since last commit."
+else
+    echo -e "${PURPLE}Git committing...${NC}" 
+    COMMIT_DATE=$(date)
+    git commit -m "$COMMIT_DATE"
+    echo -e "${CYAN}Git pushing...${NC}"
+    git push
+    echo -e "${GREEN}Backup Done: $COMMIT_DATE${NC}" 
+fi
