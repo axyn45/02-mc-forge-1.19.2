@@ -353,6 +353,12 @@
     },
     "done": true
   },
+  "ironchest:recipes/ironchest/chests/diamond_obsidian_chest": {
+    "criteria": {
+      "has_obsidian": "2023-06-05 22:59:00 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_terracotta": {
     "criteria": {
       "has_terracotta": "2023-05-22 21:17:19 +0800"
@@ -1905,6 +1911,12 @@
   "minecraft:recipes/building_blocks/cracked_stone_bricks": {
     "criteria": {
       "has_stone_bricks": "2023-03-18 18:20:43 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/terracotta": {
+    "criteria": {
+      "has_clay_block": "2023-06-05 23:01:17 +0800"
     },
     "done": true
   },
