@@ -1,33 +1,26 @@
-[07Jun2023 00:05:47.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Set the time to 1000]
-[07Jun2023 00:14:08.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Teleported admin to das]
-[07Jun2023 00:14:08.072] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: admin moved too quickly! -764.8568356227972,4.098966537343173,-559.6305585250009
-[07Jun2023 00:14:08.088] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: admin moved too quickly! -764.8568356227972,4.098966537343173,-559.6305585250009
-[07Jun2023 00:26:02.492] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3047ms or 60 ticks behind
-[07Jun2023 00:26:02.511] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: das moved too quickly! -0.42308482193868713,5.046899432200078,-9.06678972776939
-[07Jun2023 00:33:44.364] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: admin lost connection: Disconnected
-[07Jun2023 00:33:44.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: admin left the game
-[07Jun2023 00:33:45.349] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: das lost connection: Disconnected
-[07Jun2023 00:33:45.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: das left the game
-[07Jun2023 00:51:17.905] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@4bd09776
-[07Jun2023 00:51:17.910] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: das[/10.0.0.1:60634] logged in with entity id 35533 at (-552.8554451530038, 95.0805116929889, -361.1222228181051)
-[07Jun2023 00:51:17.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: das joined the game
-[07Jun2023 01:10:00.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[07Jun2023 01:10:00.162] [Server thread/INFO] [mtr.libraries.org.eclipse.jetty.server.AbstractConnector/]: Stopped ServerConnector@3a027f3c{HTTP/1.1, (http/1.1)}{0.0.0.0:8888}
-[07Jun2023 01:10:00.164] [Server thread/INFO] [mtr.libraries.org.eclipse.jetty.server.handler.ContextHandler/]: Stopped m.l.o.e.j.s.ServletContextHandler@7e594519{/,union:/root/instances/02-mc-forge-1.19.2/mods/MTR-forge-1.19.2-3.1.0.jar%23130!/assets/mtr/website,STOPPED}
-[07Jun2023 01:10:00.182] [Server thread/INFO] [Dynmap/]: [Dynmap] Unloaded 11 components.
-[07Jun2023 01:10:00.182] [Server thread/INFO] [Dynmap/]: [Dynmap] Stopping map renderer...
-[07Jun2023 01:10:01.183] [Server thread/INFO] [Dynmap/]: [Dynmap] Saved 3 pending tile renders in world 'world'
-[07Jun2023 01:10:01.187] [Server thread/INFO] [Dynmap/]: [Dynmap] Disabled
-[07Jun2023 01:10:01.188] [Server thread/INFO] [luckperms/]: Starting shutdown process...
-[07Jun2023 01:10:01.194] [Server thread/INFO] [luckperms/]: Closing storage...
-[07Jun2023 01:10:01.201] [Server thread/INFO] [luckperms/]: Goodbye!
-[07Jun2023 01:10:01.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[07Jun2023 01:10:01.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[07Jun2023 01:10:01.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[07Jun2023 01:10:04.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[07Jun2023 01:10:04.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[07Jun2023 01:10:04.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[07Jun2023 01:10:04.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[07Jun2023 01:10:04.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[07Jun2023 01:10:04.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[07Jun2023 01:10:04.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08Jun2023 00:02:32.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: das has completed the challenge [Serious Dedication]
+[08Jun2023 00:03:34.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Set the time to 1000]
+[08Jun2023 00:13:21.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [admin: Set the time to 1000]
+[08Jun2023 00:26:56.259] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: admin lost connection: Disconnected
+[08Jun2023 00:26:56.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: admin left the game
+[08Jun2023 00:51:33.354] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: das lost connection: Disconnected
+[08Jun2023 00:51:33.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: das left the game
+[08Jun2023 01:10:00.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[08Jun2023 01:10:00.099] [Server thread/INFO] [mtr.libraries.org.eclipse.jetty.server.AbstractConnector/]: Stopped ServerConnector@5598bd1e{HTTP/1.1, (http/1.1)}{0.0.0.0:8888}
+[08Jun2023 01:10:00.101] [Server thread/INFO] [mtr.libraries.org.eclipse.jetty.server.handler.ContextHandler/]: Stopped m.l.o.e.j.s.ServletContextHandler@6b11f631{/,union:/root/instances/02-mc-forge-1.19.2/mods/MTR-forge-1.19.2-3.1.0.jar%23130!/assets/mtr/website,STOPPED}
+[08Jun2023 01:10:00.118] [Server thread/INFO] [Dynmap/]: [Dynmap] Unloaded 11 components.
+[08Jun2023 01:10:00.119] [Server thread/INFO] [Dynmap/]: [Dynmap] Stopping map renderer...
+[08Jun2023 01:10:01.120] [Server thread/INFO] [Dynmap/]: [Dynmap] Disabled
+[08Jun2023 01:10:01.120] [Server thread/INFO] [luckperms/]: Starting shutdown process...
+[08Jun2023 01:10:01.125] [Server thread/INFO] [luckperms/]: Closing storage...
+[08Jun2023 01:10:01.151] [Server thread/INFO] [luckperms/]: Goodbye!
+[08Jun2023 01:10:01.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[08Jun2023 01:10:01.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[08Jun2023 01:10:01.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[08Jun2023 01:10:03.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[08Jun2023 01:10:03.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[08Jun2023 01:10:03.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[08Jun2023 01:10:03.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08Jun2023 01:10:03.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08Jun2023 01:10:03.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08Jun2023 01:10:03.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
