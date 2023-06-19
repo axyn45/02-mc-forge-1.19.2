@@ -1,19 +1,19 @@
-[19Jun2023 01:10:00.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[19Jun2023 01:10:00.115] [Server thread/INFO] [mtr.libraries.org.eclipse.jetty.server.AbstractConnector/]: Stopped ServerConnector@26c10acd{HTTP/1.1, (http/1.1)}{0.0.0.0:8888}
-[19Jun2023 01:10:00.117] [Server thread/INFO] [mtr.libraries.org.eclipse.jetty.server.handler.ContextHandler/]: Stopped m.l.o.e.j.s.ServletContextHandler@15df6a8e{/,union:/root/instances/02-mc-forge-1.19.2/mods/MTR-forge-1.19.2-3.1.0.jar%23130!/assets/mtr/website,STOPPED}
-[19Jun2023 01:10:00.135] [Server thread/INFO] [Dynmap/]: [Dynmap] Unloaded 11 components.
-[19Jun2023 01:10:00.135] [Server thread/INFO] [Dynmap/]: [Dynmap] Stopping map renderer...
-[19Jun2023 01:10:01.137] [Server thread/INFO] [Dynmap/]: [Dynmap] Disabled
-[19Jun2023 01:10:01.138] [Server thread/INFO] [luckperms/]: Starting shutdown process...
-[19Jun2023 01:10:01.143] [Server thread/INFO] [luckperms/]: Closing storage...
-[19Jun2023 01:10:01.188] [Server thread/INFO] [luckperms/]: Goodbye!
-[19Jun2023 01:10:01.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[19Jun2023 01:10:01.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[19Jun2023 01:10:01.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[19Jun2023 01:10:03.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19Jun2023 01:10:03.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[19Jun2023 01:10:03.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[19Jun2023 01:10:03.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19Jun2023 01:10:03.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19Jun2023 01:10:03.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19Jun2023 01:10:03.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20Jun2023 01:10:00.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[20Jun2023 01:10:00.132] [Server thread/INFO] [mtr.libraries.org.eclipse.jetty.server.AbstractConnector/]: Stopped ServerConnector@6f747514{HTTP/1.1, (http/1.1)}{0.0.0.0:8888}
+[20Jun2023 01:10:00.137] [Server thread/INFO] [mtr.libraries.org.eclipse.jetty.server.handler.ContextHandler/]: Stopped m.l.o.e.j.s.ServletContextHandler@42ee34b6{/,union:/root/instances/02-mc-forge-1.19.2/mods/MTR-forge-1.19.2-3.1.0.jar%23130!/assets/mtr/website,STOPPED}
+[20Jun2023 01:10:00.163] [Server thread/INFO] [Dynmap/]: [Dynmap] Unloaded 11 components.
+[20Jun2023 01:10:00.164] [Server thread/INFO] [Dynmap/]: [Dynmap] Stopping map renderer...
+[20Jun2023 01:10:01.166] [Server thread/INFO] [Dynmap/]: [Dynmap] Disabled
+[20Jun2023 01:10:01.167] [Server thread/INFO] [luckperms/]: Starting shutdown process...
+[20Jun2023 01:10:01.169] [Server thread/INFO] [luckperms/]: Closing storage...
+[20Jun2023 01:10:01.204] [Server thread/INFO] [luckperms/]: Goodbye!
+[20Jun2023 01:10:01.212] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[20Jun2023 01:10:01.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[20Jun2023 01:10:01.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[20Jun2023 01:10:03.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20Jun2023 01:10:03.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20Jun2023 01:10:03.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20Jun2023 01:10:03.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20Jun2023 01:10:03.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20Jun2023 01:10:03.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20Jun2023 01:10:03.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
