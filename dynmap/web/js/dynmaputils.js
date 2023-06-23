@@ -219,7 +219,8 @@ var DynmapTileLayer = L.TileLayer.extend({
 		this._loadingTiles.push(next);
 
 		// Tile CDN
-		next.src = "https://mcmap.okkk.cc/"+next.url;
+		// next.src = "https://mcmap.okkk.cc/"+next.url;
+		next.src = next.url;
 	},
 
 	getTileName: function(coords) {
