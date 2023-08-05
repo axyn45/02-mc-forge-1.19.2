@@ -11,5 +11,6 @@
 - das
 - luoyunsheng
 '127_0_0_1':
+- lumos
 - admin
 - eho
