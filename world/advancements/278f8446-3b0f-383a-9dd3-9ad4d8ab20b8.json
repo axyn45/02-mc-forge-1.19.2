@@ -617,6 +617,12 @@
     },
     "done": true
   },
+  "simpleplanes:recipes/plane": {
+    "criteria": {
+      "in_fire": "2023-08-18 16:28:59 +0800"
+    },
+    "done": true
+  },
   "usefulrailroads:recipes/double_track_builder": {
     "criteria": {
       "has_redstone": "2023-02-19 23:06:25 +0800"
@@ -652,16 +658,23 @@
       "minecraft:snowy_slopes": "2023-05-18 22:44:09 +0800",
       "minecraft:old_growth_pine_taiga": "2023-02-18 21:04:01 +0800",
       "minecraft:taiga": "2023-02-18 21:00:57 +0800",
+      "minecraft:sunflower_plains": "2023-08-18 15:53:14 +0800",
+      "minecraft:wooded_badlands": "2023-08-18 15:56:59 +0800",
       "minecraft:beach": "2023-05-18 21:50:41 +0800",
       "minecraft:dark_forest": "2023-05-22 20:51:51 +0800",
+      "minecraft:sparse_jungle": "2023-08-18 15:54:01 +0800",
       "minecraft:river": "2023-02-18 21:01:24 +0800",
+      "minecraft:lukewarm_ocean": "2023-08-18 15:58:37 +0800",
       "minecraft:stony_shore": "2023-03-04 19:41:40 +0800",
       "minecraft:dripstone_caves": "2023-02-18 21:41:46 +0800",
       "minecraft:grove": "2023-05-18 23:03:34 +0800",
       "minecraft:cold_ocean": "2023-03-04 19:41:37 +0800",
       "minecraft:forest": "2023-02-18 21:09:19 +0800",
       "minecraft:deep_cold_ocean": "2023-05-20 20:13:56 +0800",
+      "minecraft:desert": "2023-08-18 15:57:41 +0800",
+      "minecraft:jungle": "2023-08-18 15:53:57 +0800",
       "minecraft:old_growth_spruce_taiga": "2023-03-04 19:44:37 +0800",
+      "minecraft:warm_ocean": "2023-08-18 15:57:51 +0800",
       "minecraft:meadow": "2023-02-18 21:01:28 +0800",
       "minecraft:plains": "2023-03-04 19:41:19 +0800"
     },
